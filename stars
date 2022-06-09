@@ -75,4 +75,21 @@ nav.navbar a:hover {
 	color: #8b9ebe !important;
 	}
   
+/* УДАЛЯЕМОЕ */
+
+[src="//beon.fun/i/online.png"], [src="//beon.fun/i/offline.png"], [class=flag], .post-content [class=post-title-date] {
+display: none !important; 
+}
+
+/* САМ ДИЗАЙН */
+
+.bodybg {
+font-family: 'Play', sans-serif;
+font-size: 0;
+}
+
+div#app {
+    padding: 0 15%;
+    font-size: 14px;
+}
   
