@@ -1,0 +1,78 @@
+/* ШРИФТ */
+
+@import url('httpsfonts.googleapis.comcss2family=Play&display=swap');
+
+/* ЛЕГКАЯ НАСТРОЙКА (БЭК АП) */
+
+.bodybg {
+		background-color: #000000;
+	  background-color: rgba(0,0,0, 1);
+		background-image: url(//beon.fun/blogs/98/56/5698/design/pagebg.gif?1654775142);
+		background-attachment: fixed;
+		background-position: top left;
+		background-repeat: repeat;
+		background-size: auto;
+		}
+
+	.py-4 a, .crumbs a {
+		color: #dddddd !important;
+	}
+  
+	.py-4 a:hover, .crumbs a:hover {
+		color: #8b9ebe !important;
+	}
+
+.crumbs {
+	background-color: #181818;
+	background-color: rgba(24,24,24, 1);
+	color: #666666;	
+		}
+    
+.post-content {
+	background-color: #090909;
+	background-color: rgba(9,9,9, 1);
+	color: #666666;
+	}
+  
+.post-title {
+	color: #848484;
+}
+
+.comment-content {
+	background-color: #090909;
+	background-color: rgba(9,9,9, 1);
+	color: #666666;
+	}
+  
+.left-menu > div {
+	background-color: #090909;
+	background-color: rgba(9,9,9, 1);
+	color: ;
+		}
+    
+.textareabg {
+		background-color: #090909;
+		background-color: rgba(9,9,9, 1);
+		color: #666666;	
+	}
+.datebg {
+	background-color: #181818 !important;
+	background-color: rgba(24,24,24, 1) !important;
+	color: #666666;	
+		}
+
+nav.navbar {
+	background-color: #090909;
+	background-color: rgba(9,9,9, 1);
+	color: #dddddd !important;
+	}
+
+nav.navbar a {
+	color: #dddddd !important;
+	}
+
+nav.navbar a:hover {
+	color: #8b9ebe !important;
+	}
+  
+  
