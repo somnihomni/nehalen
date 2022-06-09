@@ -77,7 +77,7 @@ nav.navbar a:hover {
 
 /* УДАЛЯЕМОЕ */
 
-[src="//beon.fun/i/online.png"], [src="//beon.fun/i/offline.png"], [class=flag], .post-content [class=post-title-date] {
+[src="//beon.fun/i/online.png"], [src="//beon.fun/i/offline.png"], [class=flag], .post-content [class=post-title-date], [class="blog__gifts"] {
 display: none !important; 
 }
 
@@ -414,6 +414,7 @@ ul.navbar-nav.ml-auto {
 [class="blog__tags"] {
     display: flex;
     order: 1;
+    width: 100%;
     padding-right: 15px;
     border-bottom: 25px solid black;
     border-top: 25px solid black;
@@ -815,7 +816,7 @@ border: 1px solid #181818;
 display: none;
 }
 
-[class="blog__last-comments"], [class="left-menu__user-notification left-menu__friends"], [class="blog__iread"], [class="left-menu__user-notification left-menu__unread-message"], [class="blog__read-me"], [class="left-menu__friends left-menu__friends_offline"], [action="/search"], [src="//beon.fun/i/offline.png"], [src="/i/blog.png"], [src="//beon.fun/i/tag.png"], [src="//beon.fun/i/design-off.png"], [src="/i/user.png"], .user:before, .tag:before {
+[class="blog__last-comments"], [class="left-menu__user-notification left-menu__friends"], [class="blog__iread"], [class="left-menu__user-notification left-menu__unread-message"], [class="blog__read-me"], [class="left-menu__friends left-menu__friends_offline"], [action="/search"], [src="//beon.fun/i/offline.png"], [src="/i/blog.png"], [src="//beon.fun/i/tag.png"], [src="//beon.fun/i/design-off.png"], [src="/i/user.png"], [class="blog__gifts"], .user:before, .tag:before {
 display: none !important;
 }
 
@@ -823,6 +824,7 @@ display: none !important;
     display: flex !important;
     order: 1;
     padding-right: 15px;
+    width: 100%;
     border-bottom: 25px solid black;
     border-top: 25px solid black;
     box-shadow: 0px 0px 0px 29px #181818;
