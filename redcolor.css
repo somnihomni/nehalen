@@ -1,0 +1,197 @@
+/* НАСТРОЙКА ЦВЕТА */
+
+ a.navbar-brand:before {
+    color: #666666 !important; /* цвет шрифта кнопки выхода */
+    border: 1px solid #dddddd; /* цвет границы кнопки выхода на главную */
+}
+
+ a.navbar-brand:hover::before {
+ background: #dddddd;  /* цвет кнопки выхода при наведении */
+color: white !important; /* цвет шрифта кнопки выхода при наведении */
+}
+
+.pc-menu, nav.navbar a, nav.navbar a:hover {
+    color: #666666 !important; /* цвет ссылок верхнего меню */
+    transition: 0.3s;
+}
+
+.post-title-user {
+    font-size: 13px;
+}
+
+ 
+.bg-white {
+    border: 1px solid #dddddd; /* цвет границы верхнего меню */
+    background-color: white; /* цвет фона верхнего меню */
+}
+
+span.crumb-item, .crumbs [href="/"] {
+    color: #666666!important; /* это цвет навигации хлебных крошек слева (!) */
+}
+
+div.crumbs {
+   border: 1px solid #dddddd; /* цвет границ */
+    background-color: #fff; /* цвет фона */
+    box-shadow: 0 0 4px 2px #00000014, 0px -20px 10px 6px white; /* будешь менять цвет фона, меняешь white */
+}
+
+.pagination a {
+    border: 1px solid #dddddd; /* цвет границ элемента */
+background: white;  /* цвет фона страниц хлебных крошек */
+color: #666666; /* цвет цифр страниц хлебных крошек */
+}
+
+.pagination a:hover {
+    background: #dddddd; /* цвет фона страниц при наведении*/
+    color: white; /* цвет цифр страниц хлебных крошек при наведении */
+}
+
+::-webkit-scrollbar {
+    border-left: 1px solid #dddddd; /* цвет границы скроллбара */
+}
+
+::-webkit-scrollbar-thumb {
+    background: white; /* цвет кнопки скроллбара */
+    border-left: 1px solid #dddddd; /* цвет границ скроллбара */
+    box-shadow: inset 0 0 0 5px white, inset 0 0 0 6px #dddddd; /* white - цвет фона скроллбара, второй цвет - граница кнопки */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #dddddd; /* цвет кнопки скроллбара */
+}
+
+[onclick="event.preventDefault();window.scroll({top: document.body.scrollHeight,behavior: 'smooth'})"]:before, [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"]:before  {
+    color: #dddddd; /* цвет стрелки кнопки вверх-вниз */
+}
+
+div.left-menu {
+    background: #fff; /* фоновый цвет меню */
+    border: 1px solid #dddddd; /* цвет границы меню */
+    box-shadow: 0 0 4px 2px #00000014; /* тени меню */
+}
+
+.left-menu > div > h3 {
+    background-color: white !important; /* цвет шапки меню */
+    border-bottom: 1px solid #dddddd; /* цвет разграничителя */
+    color: #666666 !important; /* цвет текста шапки меню */
+}
+
+[class="blog__tags"] a, [class="messageform__taglinks"], [class="tag"] {
+    border: 1px solid #dddddd;
+    background: white !important;
+    color: #666666 !important; /* цвет ссылок в тэгах */;
+}
+
+[class="blog__tags"] a:hover, [class="messageform__taglinks"]:hover, [class="tag"]:hover {
+    background: #dddddd !important;
+    color: white !important;
+}
+
+[action="/search"] input {
+    border: 0;
+   border-bottom: 1px solid #dddddd;
+}
+
+.left-menu a {
+color: black; /* цвет ссылок в левом-правом меню */
+}
+
+.datebg {
+    border: 1px solid #dddddd;
+    background-color: #ffffff; /* цвет фона дат */
+    color: #666666; /* цвет рифта дат */
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] img {
+    border: 1px solid #dddddd;
+}
+
+.left-menu .blog__about, .left-menu .blog__tags {
+    background: #fff; /* цвет фона */
+    border: 1px solid #dddddd; /* граница элемента */
+   box-shadow: 0 0 4px 2px #00000014; /* тень элемента */
+}
+
+.left-menu .blog__about h3:after {
+    background: url(https://i.ibb.co/GvHmwsG/a6f7861….jpg) no-repeat center; /* изображение-аватар блока о себе */
+    background-size: contain; 
+    box-shadow: inset 0 0 0px 1px #dddddd, 0px -1px #dddddd; /* границы аватарки и верхнего подчеркивания */
+    border-top: 11px solid white; /* меняешь в случае смены цвета фона */
+}
+
+div#beon-fnplayer {
+    background: #ffffff80;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content {
+    border: 1px solid #dddddd; /* цвет границ блока записей */
+    background: url(https://i.ibb.co/WfkwnYh/3.png), url(https://i.ibb.co/WfkwnYh/3.png), url(https://i.ibb.co/VwXfjHd/1619121568-53-phonoteka-org-p-belii-mramor-fon-63.jpg) top center no-repeat fixed; /* изображение в блоке записей */
+    background-size: cover; /* штука с размером изображения на фоне, можешь вместо ковер поставить какое-то процентное значение или contain */
+    box-shadow: 0 0 4px 2px #00000014; /* тени блока */
+}
+
+.content a:hover {
+    color: black;
+}
+
+.post-content, .comment-content, .textareabg {
+    border: 1px solid #dddddd; /* цвет границ записей, комментариев и форм */
+    color: #666666; /* цвет шрифта записей комментариев и форм */
+    background-color: #fff; /* цвет фона записей комментов и форм */
+}
+
+ [class="comment-content"] .post-title-user {
+    color: black;
+}
+
+ .post-avatar {
+    border: 1px solid #dddddd;
+}
+
+.post-title, .post-content h1 {
+    color: black !important; /* цвет записей постов */
+}
+
+div.row.w-100, .post-opt, .comment-text+div, .fa-trash-alt:before, a, .pagination-goto, span[data-target="#deleteconfirmmodal"] {
+color: black;
+}
+
+button, input, optgroup, select, textarea {
+    border: 1px solid #dddddd;
+    color: #666666;
+}
+
+.tag_bar span {
+    border: 1px solid #dddddd !important;
+    background: white !important;
+    color: #666666;
+}
+
+.tag_bar span:hover {
+    background: #dddddd !important;
+    color: white;
+}
+
+.likebutton {
+    color: #000000;
+}
+
+.quotation {
+    background: #dddddd42; /* фон цитируемого текста */
+    color: #9d9d9d; /* цвет шрифта цитируемого */
+}
+
+/* штука, которая как эпиграф */
+
+[class="post-content blog_total_counter"] {
+    min-height: unset;
+    margin: 25px 0px !important;
+    font-size: 0;
+    height: 247px; /* в зависимости от эпига - подгоняешь высоту */
+    background: url(https://i.ibb.co/RPjZvPm/2.png) no-repeat center; /*изображение */
+    background-size: cover;
+    border: 1px solid #6666664f !important;
+    filter: contrast(0.8) brightness(1.2) saturate(0.5); /* это настройка базового изображения, удали, когда свое поставишь */
+}
