@@ -1,0 +1,432 @@
+/* ШТУКА  СО СТИКЕРАМИ */
+
+span.emj-dropdown {
+padding: 0px;
+}
+
+span.emj-dropdown [src="//beon.fun/i/smiles/kolobok/smile3.gif"] {
+background: url(https://i.ibb.co/xHB0q7R/23.png) no-repeat center;
+background-size: contain;
+padding: 16px;
+width: 0px;
+}
+
+.emj-dropdown-content {
+    width: 319px !important;
+    height: 160px;
+    padding: 5px;
+    overflow: auto;
+}
+
+
+.comment-text [src^="//beon.fun/i/smiles/kolobok/"] {
+background-size: contain;
+padding: 125px;
+width: 0px;
+}
+
+.emj-dropdown-content [src^="//beon.fun/i/smiles/kolobok/"] {
+padding: 35px;
+width: 0px;
+display: none;
+background-size: cover;
+}
+
+.emj-dropdown-content a {
+padding: 0px;
+}
+
+/* СКАРАКОТ */
+
+[src="//beon.fun/i/smiles/kolobok/acute.gif"] {background: url(https://i.ibb.co/H4thftn/1.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/cray2.gif"] {background: url(https://i.ibb.co/Hpr5j5B/19.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/aggressive.gif"] {background: url(https://i.ibb.co/QM5mrd7/2.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/agree.gif"] {background: url(https://i.ibb.co/qn9N7SS/3.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/crazy.gif"] {background: url(https://i.ibb.co/FwGSNDz/20.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/beee.gif"] {background: url(https://i.ibb.co/hDXxHhP/13.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/gamer1.gif"] {background: url(https://i.ibb.co/thKrX7D/39.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/boast.gif"] {background: url(https://i.ibb.co/cFPy1yK/9.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/bb.gif"] {background: url(https://i.ibb.co/3YVf7WT/8.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/boredom.gif"] {background: url(https://i.ibb.co/DMLYNK9/10.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/buba.gif"] {background: url(https://i.ibb.co/59HQ0Xx/11.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/clapping.gif"] {background: url(https://i.ibb.co/7bKbc8c/15.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/fool.gif"] {background: url(https://i.ibb.co/yddqMsp/37.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dance.gif"] {background: url(https://i.ibb.co/JjHxPKz/22.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/declare.gif"] {background: url(https://i.ibb.co/DMTgh7g/26.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/derisive.gif"] {background: url(https://i.ibb.co/phnyYNM/27.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/diablo.gif"] {background: url(https://i.ibb.co/zrxYmPt/28.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dirol.gif"] {background: url(https://i.ibb.co/S0bKhpw/29.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dntknw.gif"] {background: url(https://i.ibb.co/WxLrrp0/30.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/don-t_mention.gif"] {background: url(https://i.ibb.co/KsvstkC/31.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/facepalm.gif"] {background: url(https://i.ibb.co/1m0Spk9/35.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/air_kiss.gif"] {background: url(https://i.ibb.co/D95k850/4.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/alcoholic.gif"] {background: url(https://i.ibb.co/C9Bftxf/5.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/angel.gif"] {background: url(https://i.ibb.co/XZQb5f3/6.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/bad.gif"] {background: url(https://i.ibb.co/6BDw8Ym/7.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/black_eye.gif"] {background: url(https://i.ibb.co/TWpbzJk/14.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/blum3.gif"] {background: url(https://i.ibb.co/TBVmpg8/17.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/blush2.gif"] {background: url(https://i.ibb.co/HG8hBXK/18.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/censored.gif"] {background: url(https://i.ibb.co/bPhv0fw/12.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/cray.gif"] {background: url(https://i.ibb.co/zSJQcRy/16.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/crazy_pilot.gif"] {background: url(https://i.ibb.co/MDLJxTF/21.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dance2.gif"] {background: url(https://i.ibb.co/xHB0q7R/23.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dance4.gif"] {background: url(https://i.ibb.co/3sXNmyN/24.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/download.gif"] {background: url(https://i.ibb.co/MDfWtT7/32.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/drag.gif"] {background: url(https://i.ibb.co/646YMWp/33.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/drinks.gif"] {background: url(https://i.ibb.co/HgMKTTw/34.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/dash1.gif"] {background: url(https://i.ibb.co/ZB7n2Gf/25.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/focus.gif"] {background: url(https://i.ibb.co/7XLsJsX/36.png) no-repeat center;
+display: block !important;}
+[src="//beon.fun/i/smiles/kolobok/friends.gif"] {background: url(https://i.ibb.co/F4tLZ0z/38.png) no-repeat center;
+display: block !important;}
+
+
+/* ДОПОЛНИТЕЛЬНЫЕ СЛОТЫ */
+/* удалите строчку padding для загрузки своих стиков */
+
+[src="//beon.fun/i/smiles/kolobok/girl_hospital.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/good.gif"]  {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/grin.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/hang2.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/heat.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/help.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/hi.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/hunter.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/i-m_so_happy.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/ireful1.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/laugh2.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/lazy2.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/mail1.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/man_in_love.gif"]{
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/meeting.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/mosking.gif"]{
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/music.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/negative.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/nea.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/mda.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/no2.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/not_i.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/nyam.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/offtopic.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/ok.gif"]  {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+ [src="//beon.fun/i/smiles/kolobok/pardon.gif"]  {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+ [src="//beon.fun/i/smiles/kolobok/party.gif"]  {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/pleasantry.gif"]  {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+ [src="//beon.fun/i/smiles/kolobok/polling.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/pooh_door.gif"]  {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/popcorm1.gif"]  {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/preved.gif"]{
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/punish.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/read.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/resent.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/rofl.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/spiteful.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/stink.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/stop.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/superstition.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/swoon.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/swoon2.gif"]    {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/take_example.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/taunt.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/thank_you.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/this.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/threaten.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/tomato.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/tongue.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/to_clue.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/to_pick_ones_nose2.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/to_take_umbrage.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/umnik.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/victory.gif"]{
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/wacko.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/wacko2.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/whistle.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/wink.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/wink3.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/yahoo.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/yes3.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
+
+[src="//beon.fun/i/smiles/kolobok/yu.gif"] {
+background: url() no-repeat center; /* в скобки - ссылку на изображение */ 
+padding: 0px!important; /* удалите строчку для корректного отображения */ 
+display: block !important; }
