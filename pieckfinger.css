@@ -15,6 +15,14 @@ body {
     background-color: #000000;
 }
 
+[class="footer__infolinks p-1"], .m2 {
+    display: none;
+}
+
+[href="mailto:a@beon.fun"] {
+    color: #666666;
+}
+
 /* ШТУКА  СО СТИКЕРАМИ (бонусом, если вдруг захочется что-то свое хд) */
 
 span.emj-dropdown {
@@ -1610,7 +1618,7 @@ div+[style="text-align: center"], div+[style="text-align: center"] a {
 
 div#footer:before {
     margin-bottom: 10px;
-    text-align: end;
+    text-align: center;
     margin-right: 10px!important;
 }
 
