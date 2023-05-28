@@ -5,6 +5,10 @@
 /* УДАЛИТЬ */
 [class="footer__infolinks p-1"], [action="/search"], [class="left-menu__friends left-menu__friends_offline"], [class="left-menu__user-notification left-menu__friends"], [class="textareabg"] br, [class="post-content"]  .blog:before, .tag:before, hr, .user:before, [class="flag"], [href="//beon.fun/p/discussions/unread"], [src="/i/user.png"], [class="blog__last-comments"] { display: none; }
 
+[id="commentpreviewplace"]  br {
+    display: unset!important;
+}
+
 /* НИЗ (ПОДВАЛ) */
 
 [class="bottombg"] .text-center {
