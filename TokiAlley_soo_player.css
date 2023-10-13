@@ -2,190 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
 
-/* МИНИ-БАНАН */
+/* ПОДВАЛ */
 
-.post-avatar [href="//khan.beon.fun"] img {
-content: url(https://i.ibb.co/XFXw2Yw/1.gif);
-max-width: 100px;
-max-height: 100px;
+#usermenu {
+    background-color: #000000b0;
+    border: 1px solid #350707;
 }
 
-.post-avatar [href="//earnest.beon.fun"] img {
-content: url(https://i.ibb.co/41R0WQQ/59.png);
-max-width: 100px;
-max-height: 100px;
+[class="bottombg"] .text-center {
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
-.post-avatar [href="//rred.beon.fun"] img {
-content: url(https://i.ibb.co/9bQVbm4/58.png);
-max-width: 100px;
-max-height: 100px;
-}
-
-/* ШТУКА С НИКАМИ */
+.user:before , .blog:before {display: none;}
 
 .comment-box [class="user post-title-user"] {
-    font-size: 0 !important;
+    color: rgb(213, 185, 139);
 }
-
-.comment-box [href="//beon.fun/users/deathlyangry"], .comment-box [href="//beon.fun/users/deathlyangry"], .comment-box [href="//beon.fun/users/eglantine"], .comment-box [href="//beon.fun/users/kartami"], .comment-box [href="//beon.fun/users/69eyes"], .comment-box [href="//beon.fun/users/fenrir"],  .comment-box [href="//beon.fun/users/manegarm"], .comment-box [href="//beon.fun/users/khan"], .comment-box [href="//beon.fun/users/aympc"], .comment-box [href="//beon.fun/users/theshooed"], .comment-box [href="//beon.fun/users/witahves"], .comment-box [href="//beon.fun/users/zaebic"], .comment-box [href="//beon.fun/users/skut126"],  .comment-box [href="//beon.fun/users/rred"], .comment-box [href="//beon.fun/users/amoriel"], .comment-box [href="//beon.fun/users/earnest"], .comment-box [href="//beon.fun/users/last"], .comment-box [href="//beon.fun/users/scifisamurai"], .comment-box [href="//beon.fun/users/timotits"], .comment-box [href="//beon.fun/users/bleachlove"], .comment-box [href="//beon.fun/users/plr2"]  {
-    font-size: 0 !important;
-}
-
-.comment-box [class="user post-title-user"]:before {
-    content: 'Новый герой';
-    color: #6666663d;
-    text-shadow: 0 0 0px #666666a1;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/deathlyangry"]:before {
-    content: 'Люмин';
-    color: #dddddd;
-    text-shadow: 0 0 20px #ffffff73;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/eglantine"]:before {
-    content: 'Скарамоисхе НЕ Харбингер';
-    color: #bb43b2;
-    text-shadow: 0 0 20px #bb43b287;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/scifisamurai"]:before {
-    content: 'Мисс Голубка Снежной 2022';
-    color: #90c8e3;
-    text-shadow: 0 0 20px #bb43b287;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/kartami"]:before {
-    content: 'Рейзор';
-    color: #bb43b2;
-    text-shadow: 0 0 20px #bb43b287;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/69eyes"]:before {
-    content: 'Я тебе свергну, анэмо-коммунист';
-    color: #68dfbd;
-    text-shadow: 0 0 20px #68dfbd7d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/fenrir"]:before {
-    content: 'Аравенти с аракавой';
-    color: #68dfbd;
-    text-shadow: 0 0 20px #68dfbd7d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/bleachlove"]:before {
-    content: 'Сиканоин Хэйдзо';
-    color: #68dfbd;
-    text-shadow: 0 0 20px #68dfbd7d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/manegarm"]:before {
-    content: 'Вредный казначей';
-        color:  #bb43b2;
-    text-shadow: 0 0 20px #d6a03e8a;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/khan"]:before {
-    content: 'Горо';
-        color: #d6a03e;
-    text-shadow: 0 0 20px #d6a03e8a;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/aympc"]:before {
-    content: 'Чжун Ли';
-        color: #d6a03e;
-    text-shadow: 0 0 20px #d6a03e8a;
-    font-size: 14px;
-}
-
-
-.comment-box [href="//beon.fun/users/theshooed"]:before {
-    content: 'Архонт лягушек';
-    color: #fb3d3d;
-    text-shadow: 0 0 #fb3d3d87;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/witahves"]:before {
-    content: 'Дилюк Рагнвиндр';
-    color: #fb3d3d;
-    text-shadow: 0 0 #fb3d3d87;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/zaebic"]:before {
-    content: 'Сяо';
-    color: #68dfbd;
-    text-shadow: 0 0 20px #68dfbd7d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/last"]:before {
-    content: 'Чарминг Харбингер Тарталья';
-    color: #236bd9;
-    text-shadow: 0 0 #236bd987;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/skut126"]:before {
-    content: 'ярэ-ярэ Аято';
-    color: #236bd9;
-    text-shadow: 0 0 #236bd987;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/rred"]:before {
-    content: 'Криобармен';
-    color: #90c8e3;
-    text-shadow: 0 0 20px #90c8e37d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/plr2"]:before {
-    content: 'Иль Дотторе';
-    color: #90c8e3;
-    text-shadow: 0 0 20px #90c8e37d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/timotits"]:before {
-    content: 'Кэйа Альберих';
-    color: #90c8e3;
-    text-shadow: 0 0 20px #90c8e37d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/amoriel"]:before {
-    content: 'Анэмо госпожа';
-    color: #68dfbd;
-    text-shadow: 0 0 20px #68dfbd7d;
-    font-size: 14px;
-}
-
-.comment-box [href="//beon.fun/users/earnest"]:before {
-    content: 'Ху Тао';
-    color: #fb3d3d;
-    text-shadow: 0 0 #fb3d3d87;
-    font-size: 14px;
-}
-
-
-/* ПОДВАЛ */
 
 script+div, div#footer {
     font-size: 0;
 }
+
+[class="blog__iread"] {display: none;}
+
+[class="footer__infolinks p-1"] {display: none;}
 
 div+[style="text-align: center"], div+[style="text-align: center"] a {
     margin: 10px 0;
@@ -699,32 +541,13 @@ div.left-menu {
 
 .community__moders:hover {
     filter: grayscale(0);
-    height: 265px;
+    height: 115px;
     transition: 0.5s;
 }
 
 .community__members:hover  {
     height: 195px;
     transition: 0.5s;
-}
-
-.community__moders  [href="//beon.fun/users/eglantine"], .community__moders  [href="//beon.fun/users/69eyes"],  .community__moders  [href="//beon.fun/users/deathlyangry"] {
-    font-size: 0px;
-}
-
-.community__moders [href="//beon.fun/users/eglantine"]:before {
-    content: '○ Администратор / Дизайнер-оформитель / Добрый полицейский';
-    font-size: 14px;
-}
-
-.community__moders [href="//beon.fun/users/69eyes"]:before {
-    content: '○ Администратор / Ответственный за движ / Плохой полицейский';
-    font-size: 14px;
-}
-
-.community__moders [href="//beon.fun/users/deathlyangry"]:before {
-    content: '○ Маленький помощник этого безобразия';
-    font-size: 14px;
 }
 
 .blog__read-me:hover  {
@@ -743,7 +566,7 @@ display: none !important;
 [class="blog__about"] img {
     border-radius: 100%;
     border: 5px solid #ae4b29;
-    margin: 10px 25px 25px;
+    margin: 10px 0px 25px;
 }
 
 [class="left-menu__user-notification left-menu__unread-message"] img {
@@ -1074,44 +897,8 @@ div.crumbs {
     margin: 0px 10px;
 }
 
-/* ШАПКА С ПРИВЕТСТВИЕМ */
-
 [class="post-content blog_total_counter"] {
-    position: absolute;
-    width: 79%;
-    color: #666666;
-    padding: 0px !important;
-    padding-bottom: 20px !important;
-    background: #000000e0;
-    border-radius: 30px;
-    margin: 48px 0px 0px -10px !important;
-    height: 150px;
-    font-size: 0;
-    border-bottom: 0px solid #310708 !important;
-}
-
-[class="post-content blog_total_counter"]:before {
-    content: 'Its Always Sunny in Toki Alley';
-    background: url(https://i.ibb.co/BzL3QRH/0fe5c54…-w200.gif);
-    font-family: 'Comforter Brush', cursive;
-    font-size: 150px;
-    position: absolute;
-    margin-top: -10px;
-    margin-left: -30px;
-    margin-right: -30px;
-    padding: 0px;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    filter: hue-rotate(130deg);
-    text-shadow: 0 0 20px #2d2bad;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    max-width: 100%;
-    padding: 0px;
-    border-radius: 10%;
-    border: 5px solid #ae4b29;
-    margin: 200px 0px 20px 0px !important;
+    display: none;
 }
 
 .post-content .imagefsme {
@@ -1184,12 +971,7 @@ color: #d5b98b;
 }
 
 .post-content [class="user post-title-user"] {
-    font-size: 0;
-}
-
-.post-content [class="user post-title-user"]:before {
-    content: 'Паймон — самый лучший компаньон';
-    color: #d5b98b;
+    color: rgb(213, 185, 139);
     font-size: 16px;
     padding-left: 10px;
 }
@@ -1374,21 +1156,16 @@ button, input, optgroup, select, textarea, [class="custom-file-label"], .clipboa
     margin-left: 0;
 }
 
-/* СПОЙЛЕР */
-
-.comment-box  span[style="font-size: 1.6rem;"] {
-    font-size: 13px !important;
-    color: #888888;
-    filter: opacity(0.3) blur(10px);
-     transition: 0.5s;
+.btn-outline-primary {
+    color: #e06639;
+    border-color: #e06639;
 }
 
-.comment-box  span[style="font-size: 1.6rem;"]:hover {
-    font-size: 13px !important;
-    color: #888888;
-    filter: opacity(1) blur(0px);
-     transition: 0.5s;
+.btn-outline-primary:hover {
+    background: #e06639;
+     border-color: #e06639;
 }
+
 
 /* МЕДИА (КАЛИБРОВКА)*/
 
@@ -1396,24 +1173,6 @@ button, input, optgroup, select, textarea, [class="custom-file-label"], .clipboa
 div#app {
     padding: 0;
     margin: 0 5%;
-}
-
-[class="post-content blog_total_counter"] {
-    width: 78%;
-}
-
-[class="post-content blog_total_counter"]:before {
-    content: "Its Always Sunny in Toki Alley";
-    font-family: "Comforter Brush", cursive;
-    font-size: 122px;
-    position: absolute;
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: -30px;
-    -webkit-text-fill-color: transparent;
-    filter: hue-rotate(130deg);
-    text-shadow: rgb(45 43 173) 0px 0px 20px;
-    padding: 0px;
 }
 
 .left-menu h3 {
@@ -1450,7 +1209,7 @@ div#app {
 
 .community__moders:hover {
     filter: grayscale(0);
-    height: 300px;
+    height: 115px;
     transition: 0.5s;
 }
 
@@ -1487,14 +1246,6 @@ div#app {
     right: 95px;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 117px;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    margin: 145px 0px 20px 0px !important;
-}
-
 .community__members:hover  {
     height: 220px;
     transition: 0.5s;
@@ -1526,31 +1277,16 @@ div#app {
     padding: 0px 0px 0px 0px !important;
 }
 
-[class="blog__about"] a, [class="community__moders"] a, [class="left-menu__friends left-menu__friends_offline"] a, [class="community__members"], [class="blog__read-me"] a {
+[class="blog__about"] a, [class="community__moders"] a, [class="left-menu__friends left-menu__friends_offline"] a, [class="community__members"] {
+font-size: 13px !important;
+}
+
+ [class="blog__read-me"] a {
 font-size: 12px !important;
-}
-
-.community__moders  [href="//beon.fun/users/eglantine"], .community__moders  [href="//beon.fun/users/69eyes"],  .community__moders  [href="//beon.fun/users/deathlyangry"] {
-    font-size: 0px!important;
-}
-
-.community__moders [href="//beon.fun/users/eglantine"]:before {
-    content: '○ Администратор / Дизайнер-оформитель / Добрый полицейский';
-    font-size: 12px;
-}
-
-.community__moders [href="//beon.fun/users/69eyes"]:before {
-    content: '○ Администратор / Ответственный за движ / Плохой полицейский';
-    font-size: 12px;
 }
 
 .comment-box__message-partial {
     font-size: 13px;
-}
-
-.community__moders [href="//beon.fun/users/deathlyangry"]:before {
-    content: '○ Маленький помощник этого безобразия';
-    font-size: 12px;
 }
 
 [href="#footer"]:hover {
@@ -1599,40 +1335,6 @@ font-size: 12px !important;
     transform: rotate(180deg);
 }
 
-[class="post-content blog_total_counter"] {
-    position: absolute;
-    width: 78%;
-    color: #666666;
-    padding: 0px !important;
-    padding-bottom: 20px !important;
-    background: #000000e0;
-    border-radius: 30px;
-    margin: 48px 0px 0px -10px !important;
-    height: 150px;
-    font-size: 0;
-    border-bottom: 0px solid #310708 !important;
-}
-
-[class="post-content blog_total_counter"]:before {
-    content: 'Its Always Sunny in Toki Alley';
-    background: url(https://i.ibb.co/BzL3QRH/0fe5c54…-w200.gif);
-    font-family: 'Comforter Brush', cursive;
-    font-size: 122px;
-    position: absolute;
-    margin-top: -10px;
-    margin-left: -30px;
-    margin-right: -30px;
-    padding: 0px;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    filter: hue-rotate(130deg);
-    text-shadow: 0 0 20px #2d2bad;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    margin: 140px 0px 20px 0px !important;
-}
-
 .left-menu h3 {
     font-size: 14px;
     background: linear-gradient(90deg, #b61b0b, #ad4f2c);
@@ -1662,7 +1364,7 @@ font-size: 12px !important;
 
 .community__moders:hover {
     filter: grayscale(0);
-    height: 258px;
+    height: 125px;
     transition: 0.5s;
 }
 
@@ -1682,13 +1384,9 @@ div#app {
     margin: 0px 1%;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 118px;
-}
-
 .community__moders:hover {
     filter: grayscale(0);
-    height: 276px;
+    height: 125px;
     transition: 0.5s;
 }
 
@@ -1740,10 +1438,6 @@ div#beon-fnplayer {
     width: 86%;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 110px;
-}
-
 [src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
     margin: 119px 0px 20px 0px !important;
 }
@@ -1753,9 +1447,7 @@ div#beon-fnplayer {
 }
 
 [class="community__moders"], [class="community__members"], [class="blog__read-me"] {
-    height: 73px;
-    transition: 0.5s;
-    transition-delay: 1s;
+    display: none !important;
 }
 
 [class="left-menu__user-notification left-menu__unread-message"] img {
@@ -1776,23 +1468,11 @@ div#beon-fnplayer {
     width: 1150px;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 109px;
-}
-
 [class="left-menu__user-notification left-menu__unread-message"] img {
     margin: 10px 10px 10px;
 }
 }
 @media (max-width: 1200px)  {
-[class="post-content blog_total_counter"]:before {
-    font-size: 99px;
-    margin-left: -22px;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    margin: 140px 0px 20px 0px !important;
-}
 
 .left-menu h3 {
     margin: 5px !important;
@@ -1810,10 +1490,6 @@ ol ol, ol ul, ul ol, ul ul {
     padding-left: 20px;
 }
 
-[class="post-content blog_total_counter"] {
-    width: 77%;
-}
-
 [class="navbar-brand"] {
     width: 1070px;
 }
@@ -1828,7 +1504,7 @@ ol ol, ol ul, ul ol, ul ul {
 
 .community__moders:hover {
     filter: grayscale(0);
-    height: 261px;
+    height: 90px;
     transition: 0.5s;
 }
 
@@ -1861,15 +1537,6 @@ ol ol, ol ul, ul ol, ul ul {
     right: 6px;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 91px;
-    margin-left: -22px;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    margin: 100px 0px 20px 0px !important;
-}
-
 [class="community__moders"], [class="community__members"], [class="blog__read-me"] {
     height: 74px;
     transition: 0.5s;
@@ -1899,7 +1566,7 @@ ol ol, ol ul, ul ol, ul ul {
 
 .community__moders:hover {
     filter: grayscale(0);
-    height: 261px;
+    height: 105px;
     transition: 0.5s;
 }
 
@@ -1923,15 +1590,6 @@ div#beon-fnplayer {
     padding: 45px;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 90px;
-    margin-left: -15px;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    margin: 90px 0px 20px 0px !important;
-}
-
 }
 
 @media (max-width: 1024px) {
@@ -1944,22 +1602,13 @@ div#beon-fnplayer {
     padding: 5px 20px;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 84px;
-    margin-left: -15px;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    margin: 75px 0px 20px 0px !important;
-}
-
 [class="blog__about"] img {
     width: 65%;
 }
 
 .community__moders:hover {
     filter: grayscale(0);
-    height: 274px;
+    height: 105px;
     transition: 0.5s;
 }
 
@@ -1976,11 +1625,6 @@ div#beon-fnplayer {
     border-radius: 0 0 40px 40px;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 82px;
-    margin-left: -15px;
-}
-
 .pc-menu {
     padding: 5px 8px;
     width: 815px;
@@ -1988,7 +1632,7 @@ div#beon-fnplayer {
 
 .community__moders:hover {
     filter: grayscale(0);
-    height: 374px;
+    height: 105px;
     transition: 0.5s;
 }
 
@@ -2004,20 +1648,12 @@ div#beon-fnplayer {
     border-radius: 0 0 30px 30px;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 79px;
-    margin-left: -15px;
+.community__moders{
+display: none;
 }
 
-.community__moders:hover {
-    filter: grayscale(0);
-    height: 334px;
-    transition: 0.5s;
-}
-
-.community__members:hover  {
-    height: 360px;
-    transition: 0.5s;
+.community__members  {
+display: none;
 }
 }
 
@@ -2071,7 +1707,7 @@ div#app {
 }
 
 [class="community__moders"], [class="community__members"], [class="blog__read-me"] {
-    height: 66px;
+    display: none;
 }
 
 [class="blog__about"] {
@@ -2079,7 +1715,7 @@ div#app {
 }
 
 [class="blog__about"]:hover {
-    height: 455px;
+    height: 500px;
     transition: 0.5s;
 }
 
@@ -2098,26 +1734,6 @@ div#beon-fnplayer {
 
 .content {
     width: auto;
-}
-
-[class="post-content blog_total_counter"] {
-    position: static;
-    width: auto !important;
-    background: #00000000;
-    height: 265px;
-}
-
-[class="post-content blog_total_counter"]:before {
-    text-align: center;
-    font-size: 120px ;
-    margin-top: -105px !important;
-    margin-left: -25px;
-    margin-right: -30px;
-    padding: 0px;
-}
-
-[src="//i1.beon.fun/11/53/5311/10/306310/ExC-2MfVgAEIjXa.jpg"] {
-    margin: -20px 0px 20px 0px !important;
 }
 
 .comment-content .post-avatar img {
@@ -2193,10 +1809,6 @@ div#beon-fnplayer {
 display: none;
 }
 
-[class="post-content blog_total_counter"]:before {
-    font-size: 115px;
-}
-
 .textarea-wrapper {
     display: flex;
     margin: 10px 0px;
@@ -2215,10 +1827,6 @@ div#beon-fnplayer {
     width: 90%;
     padding-top: 50px;
     margin: 25px 35px;
-}
-
-[class="post-content blog_total_counter"]:before {
-    font-size: 109px;
 }
 
 .fas, .far, .tag_bar > * {
@@ -2243,17 +1851,6 @@ div#beon-fnplayer {
     margin-left: 80px;
 }
 
-.community__moders:hover {
-    filter: grayscale(0);
-    height: 165px;
-    transition: 0.5s;
-}
-
-.community__members:hover  {
-    height: 110px;
-    transition: 0.5s;
-}
-
 }
 @media (max-width: 540px) {
 .menu__box {
@@ -2261,14 +1858,6 @@ div#beon-fnplayer {
     top: 51px;
     margin-right: 27px;
     padding: 29px 0px;
-}
-
-[class="post-content blog_total_counter"]:before {
-    font-size: 76px;
-}
-
-[class="post-content blog_total_counter"] {
-    height: 120px;
 }
 
 [href="#footer"], [href="#footer"]:hover {
@@ -2280,16 +1869,8 @@ background: url(https://i.ibb.co/rmNMBCH/arrow-right.png) no-repeat center / con
 }
 }
 @media (max-width: 480px) {
-[class="post-content blog_total_counter"]:before {
-    font-size: 70px;
-    margin-right: -15px;
-}
 }
 @media (max-width: 380px) {
-[class="post-content blog_total_counter"]:before {
-    font-size: 65px;
-    margin-right: -15px;
-}
 
 .comment-content .post-avatar img {
     width: 54px;
