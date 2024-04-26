@@ -1,0 +1,2129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ [class="blog__read-me"], [class="blog__iread"], .left-menu__gift a, [href="//beon.fun/p/discussions/unread"], [class="left-menu"] .user:before, .tag:before, [class="flag"], [id="page__rendertime"], [src="//beon.fun/i/smiles/smile.png"], [src="//beon.fun/i/smiles/sad.png"], [src="//beon.fun/i/smiles/wink.png"], [src="//beon.fun/i/smiles/kiss.png"], [src="//beon.fun/i/smiles/big-smile.png"], [src="//beon.fun/i/smiles/surprised.png"], [src="//beon.fun/i/smiles/tongue-sticking-out.png"], [src="//beon.fun/i/smiles/angry.png"], [src="//beon.fun/i/smiles/devil.png"], [src="//beon.fun/i/smiles/angel.png"], [src="//beon.fun/i/smiles/cry.png"], [src="//beon.fun/i/smiles/turn-red.png"], [src="//beon.fun/i/smiles/upset.png"], [src="//beon.fun/i/smiles/confused.png"], [src="//beon.fun/i/smiles/undecided.png"], [src="//beon.fun/i/smiles/thinking.png"], [src="//beon.fun/i/smiles/cunning.png"], [src="//beon.fun/i/smiles/tired.png"], [src="//beon.fun/i/smiles/crazy.png"], [src="//beon.fun/i/smiles/sun-glasses.png"], [src="//beon.fun/i/smiles/shhh.png"], [src="//beon.fun/i/smiles/shocked.png"], [src="//beon.fun/i/smiles/thumbs-up.png"], [src="//beon.fun/i/smiles/thumbs-down.png"], [class="left-menu__user-notification"] {display: none;}
+
+
+
+body {
+    margin: 0; 
+   font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+    color: #333333;
+    background: url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed no-repeat;
+    background-size: 2350px;
+    background-position-x: 20px;
+    background-color: white;
+}
+
+
+div#app, [class="bottombg"] {
+    margin: auto;
+    width: 1350px;
+    background: #ffffff00;
+}
+
+.left-menu-text {
+    padding-left: 2px;
+}
+
+div#app {
+    padding: 0;
+}
+
+
+.post-title, h1 { font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    border-left: 10px solid #ffffff;
+    border-right: 10px solid #ffffff;
+    border-top: 10px solid #ffffff;
+    border-bottom: 10px solid #ffffff;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-left: 6px solid #ffffff;
+    border-right: 6px solid #ffffff;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    box-shadow: inset 0 0 0 1px #57575761;
+    width: 0px;
+    height: 20px;
+    background: url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed no-repeat;
+    background-size: 2350px;
+    background-position-x: 15px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 7px solid #ffffff;
+}
+
+div#footer:before {
+    content: '-—- d e s i g n — b y — n e h a l e n -—-';
+    display: block;
+    color: #395786;
+    font-size: 15px;
+    height: 37px;
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: -4px;
+    margin-left: 0px;
+    font-family: "Lobster", sans-serif;
+    margin-bottom: 0px;
+}
+
+script+div, div#footer {
+    font-size: 0;
+}
+
+[class="footer__infolinks p-1"] {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    margin: 8px 4px;
+    font-size: 0px;
+    background: url(https://i.ibb.co/GpHVf0W/free-icon-down-arrows-5053052.png) no-repeat center / contain;
+    width: 50px;
+    transition: 0.2s;
+    transform: rotate(180deg);
+    right: 287px;
+    height: 50px;
+    position: absolute;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    margin: 8px 4px;
+    font-size: 0px;
+    background: url(https://i.ibb.co/F0MqNzt/free-icon-down-arrows-5053052q.png) no-repeat center / contain;
+    width: 50px;
+    transition: 0.2s;
+    transform: rotate(180deg);
+    right: 287px;
+    height: 50px;
+    position: absolute;
+}
+
+[class="bottombg"] {
+    color: #395786;
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    height: 220px;
+    margin-top: 40px;
+    width: 1350px;
+    padding: 20px;
+    box-shadow: inset 0 0 0px 3px #8dadd5, inset 0 0 0px 4px #ffffff, inset 0 0 0px 8px #8dadd5, 0 0 0px 3px #8dadd5, 0 0 0px 4px #ffffff, 0 0 0px 8px #8dadd5, inset 0 0 5px 10px #57575761, 0 0 10px 9px #57575761;
+    border: 1px dotted #8dadd5;
+    background: url(https://i.ibb.co/TMV3Pgb/image.png);
+    background-position-y: -48px;
+    background-blend-mode: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+[href="https://support.beon.fun/"] {
+    display: block;
+   margin: 10px 25px;
+    color: #ff000000;
+    font-size: 0;
+    transition: 0.2s;
+    background: url(https://i.ibb.co/B20ZWhh/we.png) no-repeat center / contain;
+    width: 50px;
+    height: 50px;
+}
+
+[href="https://support.beon.fun/"]:hover {
+    display: block;
+   margin: 10px 25px;
+    color: #ff000000;
+    font-size: 0;
+    transition: 0.2s;
+    background: url(https://i.ibb.co/b1d7DbL/free-icon-email-3178158.png) no-repeat center / contain;
+    width: 50px;
+    height: 50px;
+}
+
+[href="https://bugs.beon.fun/"]  {
+    display: block;
+    margin: 10px 25px;
+    color: #ff000000;
+    font-size: 0;
+   transition: 0.2s;
+    background: url(https://i.ibb.co/1GgZsR8/wer.png) no-repeat center / contain;
+    width: 50px;
+    height: 50px;
+}
+
+[href="https://bugs.beon.fun/"]:hover  {
+   transition: 0.2s;
+    background: url(https://i.ibb.co/Wxdjj9g/free-icon-error-149690.png) no-repeat center / contain;
+}
+
+[href="https://suggest.beon.fun/"]  {
+    display: block;
+    margin: 10px 25px;
+    color: #ff000000;
+    font-size: 0;
+    transition: 0.2s;
+    background: url(https://i.ibb.co/Wf3bWQR/we.png) no-repeat center / contain;
+    width: 50px;
+    height: 50px;
+}
+
+[href="https://suggest.beon.fun/"]:hover {
+    display: block;
+    margin: 10px 25px;
+    color: #ff000000;
+    font-size: 0;
+    transition: 0.2s;
+    background: url(https://i.ibb.co/HVPZqfc/image.png) no-repeat center / contain;
+    width: 50px;
+    height: 50px;
+}
+a, [onclick="deleteComment(this)"], span[data-target="#deleteconfirmmodal"]{
+    color: #87A569;
+    transition: 0.2s;
+}
+
+a:hover, [onclick="deleteComment(this)"]:hover, span[data-target="#deleteconfirmmodal"]:hover  {
+    color: #b97a90;
+    transition: 0.2s;
+    text-decoration: line-through;
+}
+
+[class="navbar navbar-expand-md navbar-light bg-white shadow-sm"], main.py-4 {
+    color: #395786;
+    margin-bottom: 40px !important;
+    margin-top: 40px !important;
+    width: 1350px;
+    padding: 20px;
+    box-shadow: inset 0 0 0px 3px #8dadd5, inset 0 0 0px 4px #ffffff, inset 0 0 0px 8px #8dadd5, 0 0 0px 3px #8dadd5, 0 0 0px 4px #ffffff, 0 0 0px 8px #8dadd5, inset 0 0 5px 10px #57575761, 0 0 10px 9px #57575761!important;
+    border: 1px dotted #8dadd5;
+    background: url(https://i.ibb.co/TMV3Pgb/image.png);
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+.container {
+    padding: 0px 5px;
+    max-width: -webkit-fill-available;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #87A569;
+    font-size: 30px;
+    height: 45px;
+    margin-top: -10px;
+    font-family: "Lobster", sans-serif;
+}
+
+[href="#footer"] {
+    background: url(https://i.ibb.co/GpHVf0W/free-icon-down-arrows-5053052.png) no-repeat center / contain;
+    transform: scale(-1, 1);
+    margin-right: -13px !important;
+    margin-left: 35px;
+    margin-top: -2px;
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+    font-size: 0px !important;
+}
+
+[href="#footer"]:hover {
+    background: url(https://i.ibb.co/F0MqNzt/free-icon-down-arrows-5053052q.png) no-repeat center / contain;
+    transform: scale(-1, 1);
+    margin-right: -13px !important;
+    margin-left: 35px;
+    margin-top: -2px;
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+    font-size: 0px !important;
+}
+
+.crumbs {
+    padding: 0;
+    display: flex;
+    margin: 0px !important;
+    font-size: 0;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.pagination a   {
+    height: 40px;
+    font-size: 10px;
+    line-height: 1.9;
+    color: #395786;
+    margin: 0;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px 18px;
+        transition: 0.5s;
+}
+
+.crumbs a:hover {
+text-decoration: none;
+}
+
+span.crumb-item, .crumbs [href="/"] {
+    width: fit-content;
+    padding: 10px;
+    color: #395786;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pagination, .crumbs [href="/"] {
+    position: sticky;
+    top: 40px;
+    z-index: 1;
+}
+
+.pc-menu a:hover {
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    border-left: 1px dashed #6795cd;
+    margin-left: 105px;
+    flex-basis: auto;
+}
+
+main.py-4 {
+    padding: 25px !important;
+}
+
+.py-4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.left-menu {
+    margin-left: 25px;
+    margin-right: 9px !important;
+    display: flex;
+    margin-bottom: auto;
+    padding: 0;
+    border: 0;
+    flex-direction: column-reverse;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+.left-menu {
+    width: 25%;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+
+[class="blog__about"]  {
+    order: 1;
+}
+
+[class="blog__last-comments"] {display: none;}
+
+.content {
+    width: 75%;
+    padding-right: 25px;
+    padding-left: 5px;
+    border-right: 1px dashed #6795cd;
+}
+
+div.left-menu::after  {
+    content: "";
+    order: 2;
+    display: block;
+    border-left: 6px solid #ffffff;
+    border-right: 6px solid #ffffff;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    box-shadow: inset 0 0 0 1px #57575761;
+    width: auto;
+    height: 350px;
+    background: url(https://i.ibb.co/z5jrmv7/000.png) no-repeat center, url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed top no-repeat;
+    padding: 25px;
+    font-size: 10px;
+    text-transform: lowercase;
+    background-position-x: 15px;
+    background-position-y: top;
+    background-color: white;
+    background-size: 270px, 2350px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+[class="blog__tags"] a {
+    line-height: 4;
+    padding: 10px;
+    color: #395786;
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[class="blog__tags"] .left-menu-text {
+    padding: 0px 0px;
+    border-bottom: 0px dashed #6f9ad0;
+    border-top: 0px dashed #6f9ad0;
+    font-size: 0px !important;
+    margin-bottom: 25px;
+}
+
+[class="blog__tags"] h3 {
+    margin-bottom: 0px!important;
+}
+
+[class="blog__tags"] a:hover {
+    text-decoration: none;
+}
+
+[action="/search"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    margin-bottom: 4px;
+    margin-top: 25px;
+}
+
+[action="/search"] input[type="text" i] {
+    width: -webkit-fill-available;
+    padding: 10px;
+    color: #395786;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    border-right: 0;
+    background: #ffffff;
+    border-radius: 5px 0 0px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[action="/search"] input[type="submit" i] {
+    padding: 10px;
+    color: #395786;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[src="//beon.fun/i/design-off.png"], [src="/i/blog.png"], [src="/i/user.png"], [class="left-menu__gift"] .user:before {display: none;}
+
+ .left-menu > div > h3 {
+    font-family: "Lobster", sans-serif;
+    color: #395786;
+    padding: 20px 0px;
+    border-bottom: 1px dashed #6f9ad0;
+    border-top: 1px dashed #6f9ad0;
+    margin-bottom: 25px;
+    background: #00ffff00 !important;
+    text-align: center;
+}
+
+h3.left-menu-text {
+    font-size: 28px;
+}
+
+.alert {
+    margin-left: 0;
+    margin-right: 25px;
+    width: unset;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    background: #B7BF78;
+    position: relative;
+    border-radius: 0;
+    color: white;
+    border: 0px solid transparent;
+    box-shadow: inset 1px 0px 0 1px #5757572e;
+}
+
+.alert:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid #ffffff;
+    border-top: 25px solid #B7BF78;
+    border-bottom: 25px solid #B7BF78;
+    width: 0px;
+    height: 20px;
+    background: white;
+    -webkit-border-start-color: transparent;
+    background-position-x: 15px;
+    background-color: white;
+}
+
+.alert:before {
+  content: '';
+  position: absolute;
+  right: -25px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 25px solid #B7BF78;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+.left-menu__gift {
+    color: #395786;
+    margin: 2px;
+    margin-top: -0px;
+    margin-bottom: 25px;
+    height: 90px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 28%;
+    padding: 10px;
+    text-align: center;
+}
+
+[class="notifications__comments  left-menu__user-notification  "] h3 {
+    margin: 0 0 25px !important;
+}
+ [class="left-menu__user-notification left-menu__unread-notifications"] h3 {
+    margin-bottom: 20px !important;
+}
+
+[class="left-menu__user-notification left-menu__unread-notifications"] {
+    border-top: 1px dashed #6f9ad0!important;
+    padding-top: 20px;
+    display: flex;
+}
+
+[href="/gifts"], [class="left-menu__user-notification left-menu__unread-notifications"] p  {display: none;}
+
+[class="notifications__comments  left-menu__user-notification  "] h3, [class="notifications__comments"] h3, [class="left-menu__user-notification left-menu__unread-notifications"] h3 {
+    color: #d1588200 !important;
+    font-size: 0 !important;
+    border-bottom: 0px dashed #6f9ad0 !important;
+    padding: 0 !important;
+}
+
+[class="notifications__comments  left-menu__user-notification  "] a, [class="notifications__comments"] a {
+    margin-left: 0;
+    width: 290px;
+    height: 50px;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    background: #e18bb2;
+    position: relative;
+    border-radius: 0;
+    color: #ffffff;
+    border: 0px solid transparent;
+    box-shadow: inset 1px 0px 0 1px #5757572e;
+}
+
+[class="left-menu__user-notification left-menu__unread-notifications"] a {
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    padding: 10px;
+    color: #395786;
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[class="notifications__comments  left-menu__user-notification  "] a:after, [class="notifications__comments"] a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 25px solid #e18bb2;
+    border-top: 25px solid #d1cc8400;
+    border-bottom: 25px solid #d1cc8400;
+    width: 0px;
+    height: 20px;
+    -webkit-border-start-color: transparent;
+    background-position-x: 15px;
+    background-color: white;
+}
+
+[class="notifications__comments  left-menu__user-notification  "] a:hover, [class="notifications__comments"] a:hover, [class="left-menu__user-notification left-menu__unread-notifications"] a:hover {
+text-decoration: none!important;
+}
+
+[class="notifications__comments  left-menu__user-notification  "] a:before, [class="notifications__comments"] a:before {
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 25px solid #ffffff;
+    border-top: 25px solid #e18bb2;
+    border-bottom: 25px solid #e18bb2;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] h3 {
+    margin-bottom: 25px!important;
+    margin-top: 10px!important;
+    text-align: center!important;
+}
+
+.d-flex {
+    display: flex !important;
+    height: 105px;
+}
+
+[class="notifications__comments  left-menu__user-notification  "], [class="notifications__comments"], [class="left-menu__user-notification left-menu__unread-notifications"] {
+    margin-top: 20px;
+}
+
+[class="notifications__comments"] a {
+    margin-top: 25px!important;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] h3+p {
+    margin-top: 0;
+    margin-bottom: 0;
+   text-align: center;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] p {
+    line-height: 1.5;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 25px;
+    color: #666666;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] img {
+    color: #395786;
+    margin: 25px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] .post-title-date {
+    font-size: 12px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] a {
+    color: grey;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] a:hover {
+    color: grey;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none!important;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] input {
+    line-height: 1;
+    padding: 10px;
+    color: #395786;
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"]  {
+    padding-bottom: 25px!important;
+    border-bottom: 1px dashed #6f9ad0!important;
+    margin-bottom: 25px!important;
+}
+
+[class="blog__about"] {
+    color: #666666!important;
+}
+
+[class="blog__about"]:before {
+    content: '';
+    position: absolute;
+    right: 220px;
+    top: 296px;
+    bottom: 0px;
+    background: url(https://i.ibb.co/2Nk1TSk/download20240405234418.png) no-repeat;
+    border-right: 0;
+    background-size: 523px;
+    width: 480px;
+    height: 500px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.post__tags-list > [class="tag"] {
+    line-height: 4;
+    padding: 5px;
+    color: #395786;
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 9px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.post__tags-list > [class="tag"]:hover {text-decoration: none;}
+
+.textareabg {
+    background-color: #f8fafc00;
+    margin-left: 0 !important;
+    padding: 0 !important;
+    border-top: 1px dashed #6795cd;
+    margin-top: 25px !important;
+    padding-top: 25px !important;
+    padding-bottom: 3px !important;
+}
+
+textarea  {
+    min-width: 300px;
+    min-height: 100px;
+    color: #666666;
+    padding: 5px 9px;
+    border: 1px solid #6795cd;
+}
+
+.datebg {
+    box-shadow: inset 0 0 0 1px #57575761;
+    background: url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed no-repeat;
+    background-size: 2350px;
+    background-position-x: 15px;
+    background-color: white;
+    color: #395786;
+    font-weight: bold;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin: 25px 0;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+.post-content {
+    min-height: auto;
+    width: unset;
+    margin: 0 !important;
+    margin-bottom: 25px !important;
+    padding: 25px 0 25px 0;
+    border-bottom: 1px dashed #6f9ad0;
+    border-top: 1px dashed #6f9ad0;
+    position: relative;
+    overflow: hidden;
+}
+
+[class="post-content blog_total_counter"] {
+    min-height: unset;
+    margin: 5px -5px !important;
+    margin-bottom: 25px !important;
+    border-left: 6px solid #ffffff;
+    border-right: 6px solid #ffffff;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    box-shadow: inset 0 0 0 1px #57575761;
+    height: 350px;
+    background: url(https://i.ibb.co/bsWhXkL/12345.png) no-repeat bottom right, url(https://i.ibb.co/nwPnGr3/er23.png), url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed top no-repeat;
+    background-size: 915px, 1000px, 2350px;
+    padding: 25px;
+    font-size: 10px;
+    text-transform: lowercase;
+    background-position-x: right, -81px, 15px;
+    background-position-y: -85px, -59px, top;
+    background-color: white;
+}
+[class="post-content blog_total_counter"]:before {
+    content: 'Its Always Sunny in Toki Alley';
+    background: url(https://i.ibb.co/QMYnJxy/23134.png);
+    background-size: 1115px;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 0;
+    height: 540px;
+    width: 1170px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -190px;
+    margin-right: 0;
+    padding: 0px;
+}
+
+.comments_count span:before {
+    content: '➨';
+    font-size:15px;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.fa-exclamation-triangle {
+    display: none;
+}
+
+.comments_count span {
+    right: 10px;
+    font-size: 0px;
+    content: '';
+   top: 40px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+[class="comment-box"] h2, .user:before {
+    display: none;
+}
+
+[class="comment-content"] {
+    padding: 25px 0;
+    margin-top: -26px !important;
+    border-bottom: 1px dashed #6f9ad0;
+    border-top: 1px dashed #6f9ad0;
+}
+
+[class="comment-content"] .post-title-user {
+    margin-left: 141px !important;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+[class="comment-header"]  {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+[class="comment-row"] .post-avatar {
+    margin-right: 25px !important;
+    margin-top: -25px !important;
+}
+
+[class="comment-box__message-partial comment-content"] {
+    line-height: 1;
+    padding: 10px;
+    color: #395786;
+    margin: 25px 0;
+    margin-bottom: 50px;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+[class="comment-box__message-partial comment-content"] a, [class="comment-box__message-partial comment-content"] a:hover, span.post-title-date+a:hover {
+    color: #395786;
+   text-decoration: none;
+}
+
+[class="post-avatar"] img  {
+    color: #395786;
+    margin: 5px;
+        margin-left: 0;
+    margin-top: -0px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+[class="comment-header"] .fas {
+    font-size: 0.7rem;
+}
+
+span.post-title-date+a {
+    font-size: 0.7rem;
+}
+
+span.post-title-date+a {
+    font-size: 0.7rem;
+    padding-left: 5px;
+}
+
+.post-title-date {
+    padding-left: 0;
+}
+
+#usermenu {
+    line-height: 2;
+    padding: 10px;
+    color: #395786;
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sign {
+    margin: 0 5px;
+}
+
+.quotation {
+    border-left: 5px solid #e18bb2c9;
+    padding-left: 5px;
+    background: linear-gradient(45deg, #e18bb2ad, transparent);
+    color: #b74a7b;
+    margin-left: -9px;
+    margin-bottom: 0;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+}
+
+[class="comment-content"] .comment-text {
+    min-height: 80px !important;
+    margin-bottom: 25px;
+   margin-top: 7px;
+}
+
+[class="comment-content"] .mt-3 {
+    display: flex;
+    margin-top: -29px !important;
+    color: #395786;
+    font-size: 12px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+[class="comment-base"] .fas {
+    line-height: 1;
+    padding: 10px;
+    color: #395786;
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #b97a90 !important;
+}
+
+.avatar-select-label {
+    border: 1px solid #6f6f6f;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    filter: sepia(1) hue-rotate(153deg) opacity(0.8);
+}
+
+.avatar-select-label-selected {
+    border: 1px solid #395786 !important;
+    filter: sepia(0) hue-rotate(0) opacity(1) !important;
+}
+
+[class="textareabg"] input, [class="messageform"] input {
+    line-height: 1;
+    padding: 10px;
+    color: #395786;
+    margin: 0 0px;
+    margin-right: 10px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+[class="textareabg"] input:hover, [class="messageform"] input:hover, .tag_bar > span:hover, .btn:not(:disabled):not(.disabled):hover, .pagination a:hover, [class="left-menu__user-notification left-menu__unread-notifications"] a:hover {
+    color: white;
+    background: #395786;
+    transition: 0.5s;
+    border: 1px solid #395786;
+}
+
+.tag_bar > span {
+    line-height: 2;
+    padding: 10px;
+    color: #395786;
+    margin: 0 0px;
+    margin-right: 5.5px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.textarea-wrapper {
+    margin-top: 10px;
+    display: flex;
+}
+
+.emj-dropdown {
+    line-height: 2;
+    padding: 10px;
+    color: #395786;
+    margin: 0 0px;
+    margin-right: 5.5px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+.emj-dropdown>[src="//beon.fun/i/smiles/kolobok/smile3.gif"] {
+    height: 19px;
+}
+
+[class="tag_bar"] {
+    margin-top: 10px;
+}
+
+[class="collapse show"] {
+    line-height: 2;
+    padding: 10px;
+    color: #395786;
+    margin: 0 0px;
+    margin-right: 5.5px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+#beon-fnplayer {
+    height: 40px;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1px #57575761;
+    background: url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed no-repeat;
+    background-size: 2350px;
+    background-position-x: 15px;
+    background-color: white;
+    margin: 2px;
+    margin-top: 34px;
+    margin-bottom: 25px;
+}
+
+#fnplayer-play {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 10px;
+    border-color: transparent transparent transparent #87A569;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+}
+
+#fnplayer-stop {
+    background: #87A569;
+}
+
+#fnplayer-slider {
+    height: 11px;
+    background-color: #ffffff;
+    border: 1px solid #87A569;
+    color: #ff000000;
+    margin-right: 8px;
+    flex-grow: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+#fnplayer-slider-inner {
+    background-color: #87A569;
+}
+
+#fnplayer-volume {
+    display: none;
+}
+
+#app > main > div.content > div.post-content > .post-row + .container-fluid, [class="comment-box"] h2, [class="flag"] {
+    display: none;
+}
+
+[class="comments_count"]   {
+    font-size: 0;
+}
+
+.content h1, .content h1 + h2 {
+    display: none !important;
+}
+
+[class="post-row"] .comment-base {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+[class="post-content post-page"] .post-header {
+    margin-left: 141px;
+    margin-bottom: 7px;
+}
+
+[class="post-content post-page"]  .post-avatar {
+    margin-top: -30px;
+    margin-left: 3px;
+}
+.content {
+font-size: 13px;
+}
+
+[class="post-content"] .post-opt {
+    margin-top: -25px !important;
+    padding-top: 25px !important;
+    clear: both;
+}
+
+[class="post-content"]  .post-text  {
+    position: relative;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a.post-title {
+    font-size: 25px;
+    display: block;
+    margin-left: -5px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: normal;
+    background-position-x: -692px;
+    background-position-y: -649px;
+    padding: 0px;
+}
+
+.post-content > [class="post-header"]{
+    margin-left: 146px !important;
+    margin-bottom: 10px;
+}
+
+[class="post-content"] .post-avatar {
+    float: left;
+    margin-left: 9px;
+    margin-top: -66px;
+}
+
+[class="post-opt"]   {
+    margin-top: 15px;
+    clear: both;
+}
+
+.modal {
+    background: linear-gradient(0deg, #233d65a8, transparent);
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    font-size: 12px;
+    padding: 1rem;
+    color: #666666;
+    text-transform: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    line-height: 1;
+    padding: 10px;
+    color: #395786;
+    margin: 0 0px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+.modal-header {
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.modal-footer {
+    border-top: 1px solid #c7c7c7;
+}
+
+.clipboard-image-field {
+    border: 1px solid #6795cd;
+    padding: 10px;
+}
+
+.content:after {
+content: 'Its Always Sunny in Toki Alley';
+    background: url(https://i.ibb.co/2v7kPL6/4.png);
+    background-size: 1115px;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 0;
+    height: 5px;
+    width: 917px;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+}
+
+[src="//i1.beon.fun/62/24/2462/22/1031722/0.png"]  {
+    max-width: 100%;
+    background: url(https://i.ibb.co/tLFvh3V/tumblr-3969015…-e240d346-540.webp) no-repeat;
+    width: 200px;
+    height: 200px;
+    background-position-x: -30px;
+    background-size: 360px;
+}
+
+[src="//i1.beon.fun/62/24/2462/24/1031724/12.png"]  {
+    max-width: 100%;
+    background: url(https://i.ibb.co/XXqm7sT/tumblr-10a4bc3269408e68d28c6b97972402b4-0528f740-540.webp) no-repeat;
+    width: 200px;
+    height: 200px;
+    background-position-x: -30px;
+    background-size: 360px;
+}
+
+[src="//i1.beon.fun/62/24/2462/23/1031723/1.png"] {
+    display: inline-block;
+    background: url(https://i.ibb.co/pvL37PD/tumblr-93f4424…-f1e0a0c5-540.webp) no-repeat;
+    width: 200px;
+    height: 200px;
+    background-position-x: -30px;
+    background-size: 360px;
+    margin: 0 10px;
+}
+
+/* МЕДИА (КАЛИБРОВКА)*/
+
+@media (max-width: 1700px) {
+[class="blog__about"]:before {
+    right: 90px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 168px;
+}
+}
+
+@media (max-width: 1600px) {
+[class="blog__about"]:before {
+    right: 55px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 124px;
+}
+}
+
+@media (max-width: 1440px) {
+.bodybg {
+    overflow-x: hidden;
+}
+
+[class="blog__about"]:before {
+    right: -21px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 44px;
+}
+}
+
+@media (max-width: 1400px) {
+[class="blog__about"]:before {
+    right: -45px;
+}
+
+body {
+    background-position-x: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-position-x: 0;
+}
+
+[class="post-content blog_total_counter"] {
+    background-position-x: right, -81px, 0px;
+}
+
+div.left-menu::after {
+    background-position-x: 0;
+}
+
+#beon-fnplayer {
+    background-position-x: 0;
+}
+
+.datebg {
+    background-position-x: 0;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 23px;
+}
+}
+
+@media (max-width: 1300px) {
+div#app, [class="bottombg"] {
+    margin: auto;
+    width: 1080px !important;
+    background: #ffffff00;
+}
+
+ [class="notifications__comments  left-menu__user-notification  "] a {
+    margin-right: 25px!important;
+    width: -webkit-fill-available!important;
+}
+
+.navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    border-left: 1px dashed #6795cd;
+    margin-left: 22px;
+    flex-basis: auto;
+}
+
+ul ul {
+    list-style-type: circle;
+    padding-left: 25px;
+}
+
+.tag_bar > span {
+    padding: 7px;
+    margin-right: -0.5px;
+}
+
+body, .datebg, #beon-fnplayer {
+    background-size: 1800px;
+}
+
+.comments_count span {
+    top: 34px;
+}
+
+[class="post-content blog_total_counter"] {
+    background: url(https://i.ibb.co/bsWhXkL/12345.png) no-repeat bottom right, url(https://i.ibb.co/nwPnGr3/er23.png), url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed top no-repeat;
+    background-size: 690px, 1000px, 1800px;
+    height: 285px;
+}
+
+[class="blog__gifts"], [class="post__tags-list"] {display: none;}
+
+div.left-menu::after {
+    background: url(https://i.ibb.co/z5jrmv7/000.png) no-repeat center, url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed top no-repeat;
+    background-size: 270px, 1800px;
+    height: 285px;
+}
+
+[class="navbar navbar-expand-md navbar-light bg-white shadow-sm"], main.py-4 {
+    width: 1080px;
+}
+
+[class="bottombg"] {
+    color: #395786;
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    height: 220px;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: inset 0 0 0px 3px #8dadd5, inset 0 0 0px 4px #ffffff, inset 0 0 0px 8px #8dadd5, 0 0 0px 3px #8dadd5, 0 0 0px 4px #ffffff, 0 0 0px 8px #8dadd5, inset 0 0 5px 10px #57575761, 0 0 10px 9px #57575761;
+    border: 1px dotted #8dadd5;
+    background: url(https://i.ibb.co/TMV3Pgb/image.png);
+    background-position-y: -48px;
+    background-blend-mode: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 100px;
+}
+
+.left-menu {
+    width: 30%;
+}
+
+.content {
+    width: 70%;
+}
+
+[class="blog__about"]:before {
+    right: 30px;
+    margin-top: -64px;
+}
+
+[class="left-menu__user-notification left-menu__unread-notifications"] a {
+    margin-left: 0;
+    width: 270px!important;
+}
+}
+
+@media (max-width: 1280px) {
+
+::-webkit-scrollbar {display: none;}
+
+[class="blog__about"]:before {
+    right: 42px;
+    margin-top: -64px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 108px;
+}
+
+[src="//i1.beon.fun/62/24/2462/24/1031724/12.png"], [src="//i1.beon.fun/62/24/2462/22/1031722/0.png"], [src="//i1.beon.fun/62/24/2462/23/1031723/1.png"]    {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    background-position-x: -30px;
+    background-size: unset;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+}
+
+@media (max-width: 1200px)  {
+[class="blog__about"]:before {
+    right: -4px;
+    margin-top: -64px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 70px;
+}
+}
+
+@media (max-width: 1100px)  {
+[class="blog__about"]:before {
+    right: -49px;
+    margin-top: -64px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 19px;
+}
+}
+
+@media (max-width: 1080px)  {
+.hamburger-menu {
+    display: inline-block;
+}
+
+.pc-menu {
+    display: none;
+    line-height: 0.85;
+}
+
+.navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    border-left: 0px dashed #6795cd;
+    margin-left: 22px;
+    flex-basis: auto;
+}
+
+[class="bottombg"] {
+    color: #395786;
+    display: flex;
+    margin: auto;
+    margin-left: -10px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    height: 220px;
+    margin-top: 20px;
+    width: 102% !important;
+    padding: 20px;
+    box-shadow: inset 0 0 0px 3px #8dadd5, inset 0 0 0px 4px #ffffff, inset 0 0 0px 8px #8dadd5, 0 0 0px 3px #8dadd5, 0 0 0px 4px #ffffff, 0 0 0px 8px #8dadd5, inset 0 0 5px 10px #57575761, 0 0 10px 9px #57575761;
+    border: 1px dotted #8dadd5;
+    background: url(https://i.ibb.co/TMV3Pgb/image.png);
+    background-position-y: -48px;
+    background-blend-mode: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.py-4 {
+    width: 102% !important;
+    margin-left: -12px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+[class="navbar navbar-expand-md navbar-light bg-white shadow-sm"] {
+    width: 102% !important;
+    margin-left: -12px !important;
+    margin-bottom: 20px !important;
+    margin-top: 8px !important;
+}
+
+.crumbs {
+    margin: 0px 15px !important;
+}
+
+[href="#footer"]:hover, [href="#footer"] {
+    margin-right: 0px !important;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 8px;
+}
+
+[class="post-content blog_total_counter"] {
+    background: url(https://i.ibb.co/bsWhXkL/12345.png) no-repeat bottom right, url(https://i.ibb.co/nwPnGr3/er23.png), url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed top no-repeat;
+    background-size: 680px, 765px, 1800px;
+    height: 250px;
+}
+
+div.left-menu::after {
+    background: url(https://i.ibb.co/z5jrmv7/000.png) no-repeat center, url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed top no-repeat;
+    background-size: 270px, 1800px;
+    height: 250px;
+}
+
+[class="blog__about"]:before {
+    right: -65px;
+    margin-top: -173px;
+}
+
+.hamburger-menu {
+    display: inline-block;
+    margin-left: 540px;
+}
+[class="navbar navbar-expand-md navbar-light bg-white shadow-sm"] {
+    padding: 20px 30px!important;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #395775;
+    transition-duration: .25s;
+}
+
+.menu__box {
+    z-index: 99;
+    border-left: 1px solid #6795cd;
+    background-color: white;
+    width: 356px;
+}
+
+[class="comment-row"] .post-avatar {
+    margin-right: 15px !important;
+    margin-top: -25px !important;
+}
+[class="comment-content"] .post-title-user {
+    margin-left: 134px !important;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+[class="post-row"] .comment-base {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.post-content > [class="post-header"] {
+    margin-left: 140px !important;
+    margin-bottom: 10px;
+}
+
+[class="post-content"] .post-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.post-content > [class="post-header"] {
+    margin-left: 138px !important;
+    margin-bottom: 10px;
+}
+
+}
+
+@media (max-width: 1024px) {
+[class="left-menu__user-notification left-menu__unread-message"] {display: none;}
+
+.menu__btn {
+    z-index: 100;
+}
+
+[class="navbar navbar-expand-md navbar-light bg-white shadow-sm"] {
+    padding: 15px 30px !important;
+}
+
+main.py-4 {
+    width: 1000px !important;
+    margin-left: 10px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+[class="navbar navbar-expand-md navbar-light bg-white shadow-sm"] {
+    width: 1000px !important;
+    margin-left: 12px !important;
+    margin-bottom: 20px !important;
+    margin-top: 12px !important;
+}
+
+[class="bottombg"] {
+    color: #395786;
+    display: flex;
+    margin: auto;
+    margin-left: 11px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    height: 220px;
+    margin-top: 20px;
+    width: 1000px !important;
+    padding: 20px;
+    box-shadow: inset 0 0 0px 3px #8dadd5, inset 0 0 0px 4px #ffffff, inset 0 0 0px 8px #8dadd5, 0 0 0px 3px #8dadd5, 0 0 0px 4px #ffffff, 0 0 0px 8px #8dadd5, inset 0 0 5px 10px #57575761, 0 0 10px 9px #57575761;
+    border: 1px dotted #8dadd5;
+    background: url(https://i.ibb.co/TMV3Pgb/image.png);
+    background-position-y: -48px;
+    background-blend-mode: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 20px;
+}
+
+[href="#footer"]:hover, [href="#footer"] {
+    margin-right: -17px !important;
+}
+.crumbs {
+    margin: 0px 15px !important;
+    width: 995px;
+}
+
+[class="blog__about"]:before {
+    right: -68px;
+    margin-top: -180px;
+}
+}
+
+@media (max-width: 768px) {
+div#app, [class="bottombg"] {
+    margin: auto;
+    width: 100% !important;
+    background: #ffffff00;
+}
+
+[class="navbar navbar-expand-md navbar-light bg-white shadow-sm"] {
+    width: 102% !important;
+    margin-left: 0px !important;
+    margin-bottom: 11px !important;
+    margin-top: 0px !important;
+    color: #02010180 !important;
+    background: url(https://i.ibb.co/TMV3Pgb/image.png);
+    border: 1px solid #8dadd5;
+    box-shadow: inset 0px 0px 0px 0px #395786 !important;
+}
+
+[class="bottombg"] {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 13px !important;
+    height: 90% !important;
+    background: #ffffff;
+    color: #02010180 !important;
+    background: url(https://i.ibb.co/TMV3Pgb/image.png);
+    border: 1px solid #8dadd5;
+    box-shadow: inset 0px 0px 0px 0px #395786 !important;
+}
+
+.hamburger-menu {
+    display: inline-block;
+    margin-left: 490px;
+}
+
+[href="#footer"]:hover, [href="#footer"] {
+    margin-right: 0px !important;
+    transform: scale(1, 1);
+    margin-left: 20px;
+}
+
+.crumbs {
+    margin: 0px 20px !important;
+    width: 98%;
+}
+
+main.py-4 {
+    width: 95% !important;
+    margin-left: 30px !important;
+    margin-right: 30px;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 8px ! IMPORTANT;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: -7px;
+    margin-top: -3px;
+}
+
+.content:after {
+    width: 660px;
+}
+
+.left-menu {
+    width: 98%;
+    margin: 7px 7px !important;
+}
+
+#beon-fnplayer {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+div.left-menu::after, [class="blog__about"]:before {display: none;}
+
+.content {
+    width: 98%;
+    margin: 8px;
+    padding-right: 0;
+    padding-left: 0;
+    border-right: 0px dashed #6795cd;
+}
+
+[class="post-content blog_total_counter"] {
+    background: url(https://i.ibb.co/bsWhXkL/12345.png) no-repeat bottom right, url(https://i.ibb.co/nwPnGr3/er23.png), url(https://i.ibb.co/9bnZ0Ws/anime-style-mountains-landscape-1.png) fixed top no-repeat;
+    background-size: 695px, 765px, 1800px;
+    height: 250px;
+    margin-bottom: 15px !important;
+    padding: 11px;
+    font-size: 0;
+}
+
+a.post-title {
+    font-size: 22px;
+    display: block;
+    margin-left: -5px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 2px;
+    line-height: normal;
+    background-position-x: -692px;
+    background-position-y: -649px;
+    padding: 0px;
+}
+
+.comments_count span {
+    display: none;
+}
+
+[class="post-avatar"] img {
+    color: #395786;
+    margin: 5px;
+    margin-left: 0;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    border: 1px solid #c7c7c7;
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+[class="post-likes-count"] .fas {
+    font-size: 12px;
+    padding: 0.3rem;
+}
+
+.fas, .far, .tag_bar > * {
+    font-size: 12px;
+    padding: 0.3rem;
+}
+
+.tag_bar > span {
+    padding: 12px;
+    margin-right: -0.5px;
+    line-height: 5;
+}
+
+[class="comment-row"] .post-avatar {
+    margin-right: 15px !important;
+    margin-top: 10px !important;
+}
+
+[class="post-content post-page"] .post-avatar {
+    margin-top: 5px;
+    margin-left: 3px;
+}
+}
+
+@media (max-width: 700px) {
+[class="left-menu__user-notification left-menu__unread-message"], [class="blog__iread"], [class="blog__read-me"], [class="blog__gifts"], [class="blog__last-comments"], [class="left-menu__user-notification"], [class="left-menu__user-notification left-menu__unread-notifications"], .alert {display: none!important;}
+
+.left-menu > div.mobile_open_menu > h3 {
+    color: #395786;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+[class="post-content"] .post-opt {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    clear: both;
+}
+
+.left-menu > div.left-menu__user-notification {
+        display: block;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px dashed #6f9ad0;
+    }
+
+    .post-content > [class="post-header"] {
+        margin-left: 12px !important;
+        margin-bottom: 10px;
+    }
+
+[class="notifications__comments left-menu__user-notification "] h3, [class="notifications__comments"] h3, [class="left-menu__user-notification left-menu__unread-notifications"] h3 {
+    color: #d1588200 !important;
+    font-size: 0 !important;
+    border-top: 0 !important;
+    margin: 0 !important;
+    border-bottom: 0px dashed #6f9ad0 !important;
+    padding: 0 !important;
+}
+
+[class="notifications__comments left-menu__user-notification "] h3 {
+    margin: -15px 0 16px !important;
+}
+
+
+.left-menu {
+    width: 95%;
+    margin: 20px 15px !important;
+    margin-bottom: 0 !important;
+}
+
+.content {
+    width: 95%;
+    margin: 16px;
+    padding-right: 0;
+    padding-left: 0;
+    border-right: 0px dashed #6795cd;
+}
+
+.hamburger-menu {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover {
+    right: 9px;
+    margin-top: -3px;
+}
+
+main.py-4 {
+    width: 95% !important;
+    margin-left: 18px !important;
+    margin-right: 30px;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 8px ! IMPORTANT;
+}
+
+.bodybg {
+    overflow-x: hidden;
+}
+
+[class="post-content"] .post-avatar, [class="post-content post-page"] .post-avatar {display: none;}
+
+.post-content {
+    min-height: auto;
+    width: unset;
+    margin: 0 !important;
+    margin-bottom: 25px !important;
+    padding: 15px 0 15px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.content:after {
+    width: 620px;
+}
+
+.textarea-wrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (max-width: 540px) {
+
+.hamburger-menu {
+    display: inline-block;
+    margin-left: 255px;
+}
+
+span.crumb-item  {
+    display: none;
+}
+.bodybg, div#app {
+    overflow-x: hidden !important;
+}
+
+main.py-4 {
+    width: 95% !important;
+    margin-left: 15px !important;
+    margin-right: 30px;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 8px ! IMPORTANT;
+}
+
+.content:after {
+    width: 470px;
+}
+
+.textareabg {
+    width: 99%;
+}
+
+span.comments_count a {display: none;}
+.content {
+    width: 95%;
+    margin: 12px;
+    padding-right: 0;
+    padding-left: 0;
+    border-right: 0px dashed #6795cd;
+}
+
+.left-menu {
+    width: 93%;
+}
+
+[class="post-likes-count"] .fas {
+        font-size: 12px;
+        padding: 0rem;
+        border: 0px solid #c7c7c7;
+    }
+
+}
+@media (max-width: 480px) {
+.hamburger-menu {
+    display: inline-block;
+    margin-left: 190px;
+}
+
+[class="post-content blog_total_counter"] {
+    background-position-x: center, -81px, -15px;
+}
+main.py-4 {
+    width: 94% !important;
+    margin-left: 14px !important;
+}
+
+.content:after {
+    width: 375px;
+}
+
+span.post-title-date+a, [class="sign"], [class="post-title-date"]  {display: none;}
+
+[class="post-avatar"] img {
+    width: 85px;
+}
+
+[class="comment-content"] .post-title-user {
+    margin-left: 105px !important;
+}
+}
+
+@media (max-width: 420px) {
+.content:after {
+    width: 350px;
+}
+
+.hamburger-menu {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.tag_bar > span {
+    padding: 10px;
+    margin-right: -0.5px;
+    line-height: 5;
+}
+
+main.py-4 {
+    overflow-x: hidden;
+    width: 94% !important;
+    margin-left: 11px !important;
+}
+
+.left-menu {
+    width: 92%;
+}
+
+.content {
+    width: 93%;
+    margin: 12px;
+    padding-right: 0;
+    padding-left: 0;
+    border-right: 0px dashed #6795cd;
+}
+}
+
+@media (max-width: 380px) {
+.content:after {
+    width: 350px;
+}
+
+.tag_bar > span {
+    padding: 10px;
+    margin-right: -0.5px;
+    line-height: 5;
+}
+
+main.py-4 {
+    overflow-x: hidden;
+    width: 94% !important;
+    margin-left: 11px !important;
+}
+
+.left-menu {
+    width: 92%;
+}
+
+.content {
+    width: 93%;
+    margin: 12px;
+    padding-right: 0;
+    padding-left: 0;
+    border-right: 0px dashed #6795cd;
+}
+}
