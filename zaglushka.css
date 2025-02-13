@@ -1,0 +1,1366 @@
+[class="notifications__comments  left-menu__user-notification  "], [class="left-menu__friends left-menu__friends_offline"], [class="left-menu__user-notification left-menu__unread-notifications"], [class="left-menu__user-notification left-menu__unread-message"], [class="left-menu__user-notification"], [class="left-menu__user-notification left-menu__friends"], [class="community__moders"], [class="community__members"], [class="blog__gifts"], [class="blog__tags"], [class="blog__last-comments"], ::-webkit-scrollbar, [src="//beon.fun/i/design-off.png"], [action="/search"], [src="/i/blog.png"], [src="/i/user.png"], [class="post-avatar"], [src="//i1.beon.fun/11/53/5311/36/920236/2345.png"], #usermenu, [class="fas fa-chevron-down"], [class="user post-title-user"], .post-title, .comment-text, h1, [class="post-title-date"], [class="post-header"], [class="mt-3 mb-3"], hr, h5, [class="post-content"] ul, .alert, .h4, h4, .textareabg, [class="text-center"] img, [class="post-text"] a, span[data-target="#deleteconfirmmodal"], [class="blog__read-me"], h3.left-menu-text, #fnplayer-volume, [href="#footer"], [class="pc-menu"] tbody, #fnplayer-slider, #fnplayer-stop, [class="m2"], [src="/i/logo2.svg"], [class="post-opt col-12 col-md-6"], [src="//beon.fun/i/offline.png"], [src="/i/logo2-deer.png"]  {display: none!important;}
+
+.font-snowblue {
+    font-family: SnowBlue;
+    font-size: 0;
+}
+
+a, a:hover {
+    font-size: 0;
+    color: #ffffff!important;
+    text-decoration: none;
+}
+
+.bg-white {
+    background-color: #f6fafc;
+}
+
+.shadow-sm {
+    box-shadow: 0 0 0 rgba(0,0,0,.075)!important;
+}
+
+.textarea-wrapper {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+body {
+    background-color: #f6fafc;
+}
+
+#beon-fnplayer {
+    background-color: #cccccc00;
+}
+
+div.left-menu {
+    border: 0px solid #aaa;
+}
+
+div#app {
+    padding: 0;
+}
+
+/* Нулевой */
+
+[class="content"]::after {
+    content: "нулевой";
+    background: url(https://i.ibb.co/qk4yDgY/1.gif) center no-repeat;
+    position: absolute;
+    top: 38px;
+        left: 504px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 4;
+}
+
+/* Область Вверх-вправо */
+
+[class="post-content blog_total_counter"] {
+    background: #f6fafc;
+    top: 0;
+    right: 0;
+    font-size: 0;
+    width: 500px;
+    height: 315px;
+    position: absolute;
+    min-height: unset;
+    margin: 0!important;
+}
+
+[class="post-content blog_total_counter"]:hover {
+    background: #f6fafc;
+}
+
+[class="post-content blog_total_counter"]:hover::before {
+    content: "вправо-вверх";
+    background: url(https://i.ibb.co/HrvqJmC/image.gif) center no-repeat;
+    position: absolute;
+    top: 38px;
+    right: 504px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Область Вправо */
+
+.datebg {
+    background: #f6fafc;
+    top: 315px;
+    right: 0;
+    width: 500px;
+    height: 315px;
+    padding: 0!important;
+    position: absolute;
+    min-height: unset;
+    margin: 0!important;
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+.datebg:hover {
+    background: #f6fafc;
+}
+
+.datebg:hover::before {
+    content: "вправо";
+    background: url(https://i.ibb.co/1L9DL7M/image.gif) center no-repeat;
+    position: absolute;
+    top: -276px;
+    right: 504px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Область Вправо-вниз */
+
+[class="post-text"] {
+    background: #f6fafc;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 315px!important;
+    padding: 0!important;
+    position: absolute!important;
+    min-height: unset;
+    margin: 0!important;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+[class="post-text"]:hover {
+    background: #f6fafc;
+}
+
+[class="post-text"]:hover::before {
+    content: "вниз-dghfdj";
+    background: url(https://i.ibb.co/7zz1rXB/image.gif) center no-repeat;
+    position: absolute;
+    bottom: 107px;
+    right: 504px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+[class="post-text"] b, strong {
+    font-size: 0;
+    font-weight: bolder;
+}
+
+/* Область Влево-вверх */
+
+.bg-white+.crumbs {
+    background: #f6fafc;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 315px!important;
+    padding: 0!important;
+    position: absolute!important;
+    min-height: unset;
+    margin: 0!important;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+.bg-white+.crumbs:hover {
+    background: #f6fafc;
+}
+
+.bg-white+.crumbs:hover::before {
+    content: "влево-вверх";
+    background: url(https://i.ibb.co/zrGPnKx/image.gif) center no-repeat;
+    position: absolute;
+    top: 38px;
+    left: 504px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Область вниз */
+
+
+div.crumbs {
+    background: #f6fafc;
+    bottom: 0;
+    left: 690px;
+    width: 500px;
+    height: 125px!important;
+    padding: 0!important;
+    position: absolute!important;
+    min-height: unset;
+    margin: 0!important;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+
+div.crumbs:hover {
+    background: #f6fafc;
+}
+
+div.crumbs:hover::before {
+    content: "вниз";
+    background: url(https://i.ibb.co/X7LhQJ9/image.gif) center no-repeat;
+    position: absolute;
+    bottom: 107px;
+    left: -187px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+
+/* Область влево-вниз */
+
+
+[class="bottombg"] {
+    background: #f6fafc;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 315px!important;
+    padding: 0!important;
+    position: absolute!important;
+    min-height: unset;
+    margin: 0!important;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+
+[class="bottombg"]:hover {
+    background: #f6fafc;
+}
+
+[class="bottombg"]:hover::before {
+    content: "вниз-влево";
+    background: url(https://i.ibb.co/rFCWJ5T/image.gif) center no-repeat;
+    position: absolute;
+    bottom: 107px;
+    left: 504px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Область влево */
+
+[class="blog__about"] {
+    background: #f6fafc;
+    top: 315px;
+    left: 0;
+    width: 500px;
+    height: 315px;
+    padding: 0!important;
+    position: absolute;
+    min-height: unset;
+    margin: 0!important;
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+[class="blog__about"]:hover {
+    background: #f6fafc;
+}
+
+[class="blog__about"]:hover::before {
+    content: "вправо";
+    background: url(https://i.ibb.co/KzF7jfk/image.gif) center no-repeat;
+    position: absolute;
+    top: -276px;
+    left: 504px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+
+form {
+    width: 1200px;
+    position: absolute;
+    z-index: 100;
+}
+
+/* Вверх */
+
+[class="pc-menu"] {
+    background: #f6fafc;
+    top: 0px;
+    left: 690px;
+    width: 500px;
+    height: 125px!important;
+    padding: 0!important;
+    position: absolute!important;
+    min-height: unset;
+    margin: 0!important;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+[class="pc-menu"]:hover {
+    background: #f6fafc;
+}
+
+[class="pc-menu"]:hover::before {
+    content: "верх";
+    background: url(https://i.ibb.co/vcT13mz/image.gif) center no-repeat;
+    position: absolute;
+    top: 38px;
+    left: -187px;
+    margin-left: auto;
+    width: 912px;
+    height: 800px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Кнопки */
+
+/* Дизайн */
+
+[href="/design/disable"] {
+    position: absolute;
+    z-index: 15;
+    bottom: -285px;
+    left: 875px;
+    background: url(https://i.ibb.co/XsjS88f/image.png) no-repeat center / contain;
+    background-size: 130px;
+    width: 130px;
+    height: 130px;
+    font-size: 0px;
+}
+
+[href="/design/disable"]:hover {
+    position: absolute;
+    z-index: 15;
+    bottom: -285px;
+    left: 875px;
+    background: url(https://i.ibb.co/fCDL3dC/image.gif) no-repeat center / contain;
+    background-size: 130px;
+    width: 130px;
+    height: 130px;
+    font-size: 0px;
+}
+
+[href="/design/disable"]:hover::before {
+    content: "really";
+    background: url(https://i.ibb.co/vwQMPwS/image.gif) center no-repeat;
+   position: absolute;
+    top: -755px;
+    left: -380px;
+    margin-left: auto;
+    width: 900px;
+    height: 904px;
+    font-size: 0px;
+    z-index: 15;
+}
+
+/* Кнопка выхода */
+
+a.navbar-brand {
+    z-index: 10;
+    font-size: 0px;
+    background: url(https://i.ibb.co/hMGzY4g/image.png) no-repeat center / contain;
+    position: absolute;
+    margin: 0;
+    top: 800px;
+    left: 690px;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 130px;
+    height: 130px;
+    font-weight: unset;
+}
+
+a.navbar-brand:hover {
+    z-index: 10;
+    font-size: 0px;
+    background: url(https://i.ibb.co/QHbhdXs/image.gif) no-repeat center / contain;
+    position: absolute;
+    margin: 0;
+    top: 800px;
+    left: 690px;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 130px;
+    height: 130px;
+    font-weight: unset;
+}
+
+a.navbar-brand:hover::before {
+    content: "exit";
+    background: url(https://i.ibb.co/bz4K3Dv/1.gif) center no-repeat;
+   position: absolute;
+    top: -755px;
+    left: -175px;
+    margin-left: auto;
+    width: 900px;
+    height: 904px;
+    font-size: 0px;
+    z-index: 15;
+}
+
+/* Кнопка плея */
+
+button#fnplayer-play  {
+    z-index: 10;
+    position: fixed;
+        top: 785px;
+    right: 729px;
+    background: url(https://i.ibb.co/xYkdDKf/image.png) no-repeat center / contain;
+    width: 130px;
+    height: 130px;
+    border: 0;
+    cursor: pointer;
+}
+
+button#fnplayer-play:hover  {
+      z-index: 100;
+    background: url(https://i.ibb.co/S7yg1c3/image.gif) no-repeat center / contain;
+}
+
+button#fnplayer-play:hover::before {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+   background-position-y: -22px;
+   position: absolute;
+    top: -720px;
+    left: -550px;
+    margin-left: auto;
+    width: 850px;
+    height: 730px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Кнопка пауза */
+
+button#fnplayer-play.paused {
+    z-index: 10;
+    position: fixed;
+        top: 785px;
+    right: 729px;
+    background: url(https://i.ibb.co/ZYH1jqS/image.gif) no-repeat center / contain;
+    width: 130px;
+    height: 130px;
+    border: 0;
+    cursor: pointer;
+}
+
+button#fnplayer-play.paused::before  {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+   background-position-y: -22px;
+   position: absolute;
+    top: -720px;
+    left: -550px;
+    margin-left: auto;
+    width: 850px;
+    height: 730px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+button#fnplayer-play.paused:hover {
+    background: url(https://i.ibb.co/XpXgLmq/image.png) no-repeat center / contain;
+}
+
+button#fnplayer-play.paused:hover::before  {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+   background-position-y: -22px;
+   position: absolute;
+    top: -720px;
+    left: -550px;
+    margin-left: auto;
+    width: 850px;
+    height: 730px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* МЕДИА (КАЛИБРОВКА)*/
+
+@media (max-width: 1760px) {
+[class="content"]::after, button#fnplayer-play.paused:hover::before, button#fnplayer-play:hover::before, [class="pc-menu"]:hover::before, [class="blog__about"]:hover::before, [class="bottombg"]:hover::before, div.crumbs:hover::before, .bg-white+.crumbs:hover::before, [class="post-text"]:hover::before, .datebg:hover::before, [class="post-content blog_total_counter"]:hover::before  {
+    background-size: 850px;
+    height: 746px;
+    width: 850px;
+}
+
+.bg-white+.crumbs,  div.crumbs, [class="post-content blog_total_counter"], .datebg, [class="post-text"], [class="pc-menu"], [class="bottombg"], [class="blog__about"], .datebg, [class="post-text"] {
+    width: 475px;
+        height: 250px!important;
+}
+
+
+[class="content"]::after, [class="pc-menu"]:hover::before, [class="post-content blog_total_counter"]:hover::before, [class="pc-menu"]:hover::before, .bg-white+.crumbs:hover::before {
+    top: 25px;
+}
+
+[class="content"]::after, [class="post-content blog_total_counter"]:hover::before, [class="pc-menu"]:hover::before, .bg-white+.crumbs:hover::before {
+    top: 25px;
+    left: 460px;
+}
+
+/* Область Вверх-вправо */
+
+[class="post-content blog_total_counter"]:hover::before {
+    left: 25px!important;
+}
+
+/* Область Вправо */
+
+.datebg:hover::before {
+    top: -290px;
+    left: 25px!important;
+}
+
+/* Область Вправо-вниз */
+
+[class="post-text"]:hover::before {
+    bottom: 84px;
+    right: 450px;
+}
+
+/* Область вниз */
+
+div.crumbs {
+    left: 645px;
+}
+
+div.crumbs:hover::before {
+    bottom: 84px;
+    left: -185px;
+}
+
+/* Область влево-вниз */
+
+[class="bottombg"]:hover::before {
+    bottom: 84px;
+    left: 460px;
+}
+
+/* Область влево */
+
+[class="blog__about"]:hover::before {
+    top: -290px;
+    left: 460px;
+}
+
+/* Вверх */
+
+[class="pc-menu"] {
+    left: 645px;
+}
+
+[class="pc-menu"]:hover::before {
+    content: "верх";
+    position: absolute;
+    left: -185px;
+    margin-left: auto;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Кнопки */
+
+/* Дизайн */
+
+[href="/design/disable"] {
+    position: absolute;
+    z-index: 15;
+        bottom: -280px;
+    left: 800px;
+    background: url(https://i.ibb.co/XsjS88f/image.png) no-repeat center / contain;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    font-size: 0px;
+}
+
+[href="/design/disable"]:hover {
+    position: absolute;
+    z-index: 15;
+        bottom: -280px;
+    left: 800px;
+    background: url(https://i.ibb.co/fCDL3dC/image.gif) no-repeat center / contain;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    font-size: 0px;
+}
+
+[href="/design/disable"]:hover::before {
+    content: "really";
+    background: url(https://i.ibb.co/vwQMPwS/image.gif) center no-repeat;
+   position: absolute;
+    background-size: 850px;
+    height: 800px;
+    width: 850px;
+    margin-left: auto;
+    font-size: 0px;
+    z-index: 15;
+    left: -360px;
+    top: -680px;
+}
+
+/* Кнопка выхода */
+
+a.navbar-brand {
+    z-index: 10;
+    font-size: 0px;
+    background: url(https://i.ibb.co/hMGzY4g/image.png) no-repeat center / contain;
+    position: absolute;
+    margin: 0;
+        top: 725px;
+    left: 635px;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    font-weight: unset;
+}
+
+a.navbar-brand:hover {
+    z-index: 10;
+    font-size: 0px;
+    background: url(https://i.ibb.co/QHbhdXs/image.gif) no-repeat center / contain;
+    position: absolute;
+    margin: 0;
+        top: 725px;
+    left: 635px;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    font-weight: unset;
+}
+
+a.navbar-brand:hover::before {
+    content: "exit";
+    background: url(https://i.ibb.co/bz4K3Dv/1.gif) center no-repeat;
+   background-size: 850px; 
+    position: absolute;
+    top: -740px;
+    left: -200px;
+    margin-left: auto;
+    width: 900px;
+    height: 904px;
+    font-size: 0px;
+    z-index: 15;
+}
+
+/* Кнопка плея */
+
+button#fnplayer-play  {
+    z-index: 10;
+    position: fixed;
+     top: 728px;
+    right: 652px;
+    background: url(https://i.ibb.co/xYkdDKf/image.png) no-repeat center / contain;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    border: 0;
+    cursor: pointer;
+}
+
+button#fnplayer-play:hover  {
+      z-index: 100;
+    background: url(https://i.ibb.co/S7yg1c3/image.gif) no-repeat center / contain;
+}
+
+button#fnplayer-play:hover::before {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 850px;
+    background-position-y: -17px;
+    position: absolute;
+    top: -683px;
+    left: -550px;
+    margin-left: auto;
+    width: 850px;
+    height: 675px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+/* Кнопка пауза */
+
+button#fnplayer-play.paused {
+    z-index: 10;
+    position: fixed;
+     top: 728px;
+    right: 652px;
+    background: url(https://i.ibb.co/ZYH1jqS/image.gif) no-repeat center / contain;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    border: 0;
+    cursor: pointer;
+}
+
+button#fnplayer-play.paused::before  {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 850px;
+    background-position-y: -17px;
+    position: absolute;
+    top: -683px;
+    left: -550px;
+    margin-left: auto;
+    width: 850px;
+    height: 675px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+button#fnplayer-play.paused:hover {
+    background: url(https://i.ibb.co/XpXgLmq/image.png) no-repeat center / contain;
+}
+
+button#fnplayer-play.paused:hover::before  {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 850px;
+    background-position-y: -17px;
+    position: absolute;
+    top: -683px;
+    left: -550px;
+    margin-left: auto;
+    width: 850px;
+    height: 675px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+}
+
+@media (max-width: 1600px) {
+
+.bg-white+.crumbs, div.crumbs, [class="post-content blog_total_counter"], .datebg, [class="post-text"], [class="pc-menu"], [class="bottombg"], [class="blog__about"], .datebg, [class="post-text"] {
+    width: 475px;
+    height: 200px!important;
+}
+
+[class="pc-menu"] {
+    left: 560px;
+}
+
+[class="content"]::after, button#fnplayer-play.paused:hover::before, button#fnplayer-play:hover::before, [class="pc-menu"]:hover::before, [class="blog__about"]:hover::before, [class="bottombg"]:hover::before, div.crumbs:hover::before, .bg-white+.crumbs:hover::before, [class="post-text"]:hover::before, .datebg:hover::before, [class="post-content blog_total_counter"]:hover::before {
+    background-size: 700px;
+    height: 614px;
+    width: 700px;
+}
+
+[class="content"]::after, .bg-white+.crumbs:hover::before {
+    top: 30px;
+    left: 446px;
+}
+
+div.crumbs {
+    left: 564px;
+}
+
+/* Область Вверх-вправо */
+
+[class="post-content blog_total_counter"]:hover::before {
+    top: 30px;
+    left: 21px!important;
+}
+
+/* Область Вправо */
+
+.datebg:hover::before {
+    top: -285px;
+    left: 21px!important;
+}
+
+/* Область Вправо-вниз */
+
+[class="post-text"]:hover::before {
+    bottom: 121px;
+    right: 454px;
+}
+
+
+/* Область вниз */
+
+div.crumbs:hover::before {
+    bottom: 121px;
+    left: -118px;
+}
+
+/* Область влево-вниз */
+
+[class="bottombg"]:hover::before {
+    bottom: 121px;
+    left: 446px;
+}
+
+/* Область влево */
+
+[class="blog__about"]:hover::before {
+    top: -285px;
+    left: 446px;
+}
+
+/* Вверх */
+
+[class="pc-menu"]:hover::before {
+    left: -114px;
+    top: 30px;
+    margin-left: auto;
+    font-size: 0px;
+    z-index: 5;
+}
+
+a.navbar-brand, a.navbar-brand:hover, [href="/design/disable"]:hover, [href="/design/disable"], button#fnplayer-play, button#fnplayer-play:hover, button#fnplayer-play.paused, button#fnplayer-play.paused:hover {
+    background-size: 100px;
+    width: 100px;
+    height: 100px
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    top: 603px;
+    left: 595px;
+}
+
+/* Кнопка выхода */
+
+a.navbar-brand {
+    z-index: 10;
+    font-size: 0px;
+    background: url(https://i.ibb.co/hMGzY4g/image.png) no-repeat center / contain;
+    position: absolute;
+    margin: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-weight: unset;
+}
+
+a.navbar-brand:hover {
+    z-index: 10;
+    font-size: 0px;
+    background: url(https://i.ibb.co/QHbhdXs/image.gif) no-repeat center / contain;
+    position: absolute;
+    margin: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-weight: unset;
+}
+
+a.navbar-brand:hover::before {
+    content: "exit";
+    background-position: top center;
+    background-size: 700px;
+    height: 570px;
+    width: 700px;
+    position: absolute;
+    top: -575px;
+    left: -100px;
+    font-size: 0px;
+    z-index: 15;
+}
+
+[href="/design/disable"], [href="/design/disable"]:hover {
+    bottom: -178px;
+    left: 725px;
+}
+
+button#fnplayer-play, button#fnplayer-play:hover, button#fnplayer-play.paused:hover, button#fnplayer-play.paused {
+    top: 600px;
+    right: 632px;
+}
+
+[href="/design/disable"]:hover::before {
+    content: "really";
+    background: url(https://i.ibb.co/vwQMPwS/image.gif) center no-repeat;
+   position: absolute;
+    background-size: 700px;
+    height: 800px;
+    width: 850px;
+    margin-left: auto;
+    font-size: 0px;
+    z-index: 15;
+    left: -370px;
+    top: -630px;
+}
+
+button#fnplayer-play:hover::before {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 700px;
+    background-position-y: -17px;
+    position: absolute;
+    top: -683px;
+    left: -550px;
+    margin-left: auto;
+    width: 850px;
+    height: 675px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+button#fnplayer-play:hover::before {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 700px;
+    background-position-y: -17px;
+    position: absolute;
+    top: -563px;
+    left: -454px;
+    margin-left: auto;
+    width: 700px;
+    height: 560px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+button#fnplayer-play.paused::before  {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 700px;
+    background-position-y: -17px;
+    position: absolute;
+    top: -563px;
+    left: -454px;
+    margin-left: auto;
+    width: 700px;
+    height: 560px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+button#fnplayer-play.paused:hover::before  {
+   content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 700px;
+    background-position-y: -17px;
+    position: absolute;
+    top: -563px;
+    left: -454px;
+    margin-left: auto;
+    width: 700px;
+    height: 560px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+[class="notifications__comments"] {display: none!important;}
+}
+
+@media (max-width: 1366px) {
+
+[class="notifications__comments"] {display: none!important;}
+
+[class="content"]::after, button#fnplayer-play.paused:hover::before, button#fnplayer-play:hover::before, [class="pc-menu"]:hover::before, [class="blog__about"]:hover::before, [class="bottombg"]:hover::before, div.crumbs:hover::before, .bg-white+.crumbs:hover::before, [class="post-text"]:hover::before, .datebg:hover::before, [class="post-content blog_total_counter"]:hover::before {
+    background-size: 580px;
+    background-color: red;
+    height: 509px;
+    width: 580px;
+}
+
+.bg-white+.crumbs, div.crumbs, [class="post-content blog_total_counter"], .datebg, [class="post-text"], [class="pc-menu"], [class="bottombg"], [class="blog__about"], .datebg, [class="post-text"] {
+    width: 475px;
+    height: 175px!important;
+}
+
+[class="blog__about"], .datebg {
+    top: 220px;
+}
+
+div.crumbs, [class="pc-menu"] {
+    left: 463px;
+}
+
+/* Область Вверх-вправо */
+
+[class="post-content blog_total_counter"], [class="post-content blog_total_counter"]:hover, .datebg, .datebg:hover, [class="post-text"], [class="post-text"]:hover, .bg-white+.crumbs, .bg-white+.crumbs:hover, div.crumbs, div.crumbs:hover, [class="bottombg"],  [class="bottombg"]:hover, [class="pc-menu"], [class="pc-menu"]:hover, [class="blog__about"]:hover::before   {
+    display: none;
+}
+
+[class="blog__about"], [class="blog__about"]:hover {
+    width: 0;
+}
+
+[class="content"]::after {
+    left: 380px;
+}
+
+a.navbar-brand, a.navbar-brand:hover, [href="/design/disable"]:hover, [href="/design/disable"], button#fnplayer-play, button#fnplayer-play:hover, button#fnplayer-play.paused, button#fnplayer-play.paused:hover {
+    background-size: 80px;
+    width: 80px;
+    height: 80px;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    top: 510px;
+    left: 498px;
+}
+
+[href="/design/disable"], [href="/design/disable"]:hover {
+    bottom: -194px;
+    left: 613px;
+}
+
+button#fnplayer-play, button#fnplayer-play:hover, button#fnplayer-play.paused:hover, button#fnplayer-play.paused {
+    top: 509px;
+    right: 549px;
+}
+
+a.navbar-brand:hover::before {
+    content: "exit";
+    background-position: top center;
+    background-size: 580px;
+    height: 570px;
+    width: 700px;
+    position: absolute;
+    top: -480px;
+    left: -175px;
+    font-size: 0px;
+    z-index: 15;
+}
+
+[href="/design/disable"]:hover::before {
+    content: "really";
+    background: url(https://i.ibb.co/vwQMPwS/image.gif) center no-repeat;
+   position: absolute;
+    background-size: 570px;
+    height: 800px;
+    width: 850px;
+    margin-left: auto;
+    font-size: 0px;
+    z-index: 15;
+    left: -380px;
+    top: -590px;
+}
+
+button#fnplayer-play:hover::before {
+content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 580px;
+    background-position-y: -12px;
+    position: absolute;
+    top: -467px;
+    left: -430px;
+    margin-left: auto;
+    width: 700px;
+    height: 470px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+button#fnplayer-play.paused::before  {
+content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 580px;
+    background-position-y: -12px;
+    position: absolute;
+    top: -467px;
+    left: -430px;
+    margin-left: auto;
+    width: 700px;
+    height: 470px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+button#fnplayer-play.paused:hover::before  {
+content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 580px;
+    background-position-y: -12px;
+    position: absolute;
+    top: -467px;
+    left: -430px;
+    margin-left: auto;
+    width: 700px;
+    height: 470px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+@media (max-width: 1280px) {
+[class="notifications__comments"] {display: none!important;}
+
+[class="content"]::after {
+    top: 15px;
+    left: 345px;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    top: 485px;
+    left: 465px;
+}
+
+button#fnplayer-play, button#fnplayer-play:hover, button#fnplayer-play.paused:hover, button#fnplayer-play.paused {
+    top: 478px;
+    right: 498px;
+}
+
+button#fnplayer-play.paused:hover::before, button#fnplayer-play.paused::before, button#fnplayer-play:hover::before  {
+    content: "play?";
+    background: url(https://i.ibb.co/cCNnjVV/image.gif) top center no-repeat;
+    background-size: 580px;
+    background-position-y: -12px;
+    position: absolute;
+    top: -450px;
+    left: -430px;
+    margin-left: auto;
+    width: 700px;
+    height: 454px;
+    font-size: 0px;
+    z-index: 5;
+}
+
+[href="/design/disable"], [href="/design/disable"]:hover {
+    bottom: -163px;
+    left: 578px;
+}
+}
+
+@media (max-width: 1024px) {
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after, .menu__btn, [class="hamburger-menu"], [class="notifications__comments left-menu__user-notification "], [class="left-menu__friends left-menu__friends_offline"], [class="left-menu__user-notification left-menu__unread-notifications"], [class="left-menu__user-notification left-menu__unread-message"], [class="left-menu__user-notification"], [class="left-menu__user-notification left-menu__friends"], [class="community__moders"], [class="community__members"], [class="blog__gifts"], [class="blog__tags"], [class="blog__last-comments"], ::-webkit-scrollbar, [src="//beon.fun/i/design-off.png"], [action="/search"], [src="/i/blog.png"], [src="/i/user.png"], [class="post-avatar"], [src="//i1.beon.fun/11/53/5311/36/920236/2345.png"], #usermenu, [class="fas fa-chevron-down"], [class="user post-title-user"], .post-title, .comment-text, h1, [class="post-title-date"], [class="post-header"], [class="mt-3 mb-3"], hr, h5, [class="post-content"] ul, .alert, .h4, h4, .textareabg, [class="text-center"] img, [class="post-text"] a, span[data-target="#deleteconfirmmodal"], [class="blog__read-me"], h3.left-menu-text, #fnplayer-volume, [href="#footer"], [class="pc-menu"] tbody, #fnplayer-slider, #fnplayer-stop, [class="m2"], [src="/i/logo2.svg"], #beon-fnplayer, .bg-white+.crumbs, [class="content"]::after, [class="post-content blog_total_counter"], .datebg, [class="post-text"]:hover, [class="post-content blog_total_counter"]:hover, [class="bottombg"]:hover, a.navbar-brand:hover::before, .content, [class="bottombg"], div.crumbs, [class="blog__about"]:hover::before, [class="notifications__comments"], .bg-white+.crumbs, div.crumbs, [class="post-content blog_total_counter"], .datebg, [class="post-text"], [class="pc-menu"], [class="bottombg"],  .datebg, [class="post-text"]    {display: none!important;}
+
+.bg-white+.crumbs, div.crumbs, [class="post-content blog_total_counter"], .datebg, [class="post-text"], [class="pc-menu"], [class="bottombg"], [class="blog__about"], .datebg, [class="post-text"] {
+    height: 0px!important;
+}
+
+body {
+    background: url(https://i.ibb.co/kS1mbjD/12.gif) center bottom no-repeat;
+    background-position-y: 297px;
+    height: 855px;
+    background-color: #f6fafc;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    z-index: 10;
+    font-size: 0px;
+    position: absolute;
+    margin: 0;
+    top: 50px;
+    background-size: 130px;
+    left: 200px;
+    width: 130px;
+    height: 130px;
+    font-weight: unset;
+}
+
+[class="blog__about"] {
+    background: #f6fafc;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 315px;
+    padding: 0!important;
+    position: absolute;
+    margin: 0!important;
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+[href="/design/disable"], [href="/design/disable"]:hover {
+    position: absolute;
+    z-index: 15;
+    top: 46px;
+    left: 690px;
+    background: url(https://i.ibb.co/XsjS88f/image.png) no-repeat center / contain;
+    background-size: 130px;
+    width: 130px;
+    height: 130px;
+    font-size: 0px;
+}
+
+
+div#app {
+    height: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+[href="/design/disable"]:hover::before {
+    content: "really";
+    position: absolute;
+    z-index: 15;
+    top: 46px;
+    left: 475px;
+    background: url(https://i.ibb.co/XsjS88f/image.png) no-repeat center / contain;
+    background-size: 130px;
+    width: 130px;
+    height: 130px;
+    font-size: 0px;
+}
+
+}
+
+@media (max-width: 800px) {
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after, .menu__btn, [class="hamburger-menu"], [class="notifications__comments left-menu__user-notification "], [class="left-menu__friends left-menu__friends_offline"], [class="left-menu__user-notification left-menu__unread-notifications"], [class="left-menu__user-notification left-menu__unread-message"], [class="left-menu__user-notification"], [class="left-menu__user-notification left-menu__friends"], [class="community__moders"], [class="community__members"], [class="blog__gifts"], [class="blog__tags"], [class="blog__last-comments"], ::-webkit-scrollbar, [src="//beon.fun/i/design-off.png"], [action="/search"], [src="/i/blog.png"], [src="/i/user.png"], [class="post-avatar"], [src="//i1.beon.fun/11/53/5311/36/920236/2345.png"], #usermenu, [class="fas fa-chevron-down"], [class="user post-title-user"], .post-title, .comment-text, h1, [class="post-title-date"], [class="post-header"], [class="mt-3 mb-3"], hr, h5, [class="post-content"] ul, .alert, .h4, h4, .textareabg, [class="text-center"] img, [class="post-text"] a, span[data-target="#deleteconfirmmodal"], [class="blog__read-me"], h3.left-menu-text, #fnplayer-volume, [href="#footer"], [class="pc-menu"] tbody, #fnplayer-slider, #fnplayer-stop, [class="m2"], [src="/i/logo2.svg"], #beon-fnplayer, .bg-white+.crumbs, [class="content"]::after, [class="post-content blog_total_counter"], .datebg, [class="post-text"]:hover, [class="post-content blog_total_counter"]:hover, [class="bottombg"]:hover, a.navbar-brand:hover::before, .content, [class="bottombg"], div.crumbs, [class="blog__about"]:hover::before, [class="notifications__comments"]    {display: none!important;}
+
+a.navbar-brand, a.navbar-brand:hover {
+    z-index: 10;
+    font-size: 0px;
+    position: absolute;
+    margin: 0;
+    top: 50px;
+    left: 200px;
+    width: 130px;
+    height: 130px;
+    font-weight: unset;
+}
+
+[class="blog__about"] {
+    background: #f6fafc;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 315px;
+    padding: 0!important;
+    position: absolute;
+    margin: 0!important;
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 0!important;
+}
+
+[href="/design/disable"], [href="/design/disable"]:hover {
+    position: absolute;
+    z-index: 15;
+    top: 46px;
+    left: 475px;
+    background: url(https://i.ibb.co/XsjS88f/image.png) no-repeat center / contain;
+    background-size: 130px;
+    width: 130px;
+    height: 130px;
+    font-size: 0px;
+}
+
+div#app {
+    height: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+[href="/design/disable"]:hover::before {
+    content: "really";
+    position: absolute;
+    z-index: 15;
+    top: 46px;
+    left: 475px;
+    background: url(https://i.ibb.co/XsjS88f/image.png) no-repeat center / contain;
+    background-size: 130px;
+    width: 130px;
+    height: 130px;
+    font-size: 0px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after, .menu__btn, [class="hamburger-menu"], [class="notifications__comments left-menu__user-notification "], [class="left-menu__friends left-menu__friends_offline"], [class="left-menu__user-notification left-menu__unread-notifications"], [class="left-menu__user-notification left-menu__unread-message"], [class="left-menu__user-notification"], [class="left-menu__user-notification left-menu__friends"], [class="community__moders"], [class="community__members"], [class="blog__gifts"], [class="blog__tags"], [class="blog__last-comments"], ::-webkit-scrollbar, [src="//beon.fun/i/design-off.png"], [action="/search"], [src="/i/blog.png"], [src="/i/user.png"], [class="post-avatar"], [src="//i1.beon.fun/11/53/5311/36/920236/2345.png"], #usermenu, [class="fas fa-chevron-down"], [class="user post-title-user"], .post-title, .comment-text, h1, [class="post-title-date"], [class="post-header"], [class="mt-3 mb-3"], hr, h5, [class="post-content"] ul, .alert, .h4, h4, .textareabg, [class="text-center"] img, [class="post-text"] a, span[data-target="#deleteconfirmmodal"], [class="blog__read-me"], h3.left-menu-text, #fnplayer-volume, [href="#footer"], [class="pc-menu"] tbody, #fnplayer-slider, #fnplayer-stop, [class="m2"], [src="/i/logo2.svg"], #beon-fnplayer, .bg-white+.crumbs, [class="content"]::after, [class="post-content blog_total_counter"], .datebg, [class="post-text"]:hover, [class="post-content blog_total_counter"]:hover, [class="bottombg"]:hover, a.navbar-brand:hover::before, .content, [class="bottombg"], div.crumbs, [class="blog__about"]:hover::before, [class="notifications__comments"]   {display: none!important;}
+
+a.navbar-brand, a.navbar-brand:hover {
+    left: 175px;
+}
+}
+
+@media (max-width: 700px) {
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after, .menu__btn, [class="hamburger-menu"], [class="notifications__comments left-menu__user-notification "], [class="left-menu__friends left-menu__friends_offline"], [class="left-menu__user-notification left-menu__unread-notifications"], [class="left-menu__user-notification left-menu__unread-message"], [class="left-menu__user-notification"], [class="left-menu__user-notification left-menu__friends"], [class="community__moders"], [class="community__members"], [class="blog__gifts"], [class="blog__tags"], [class="blog__last-comments"], ::-webkit-scrollbar, [src="//beon.fun/i/design-off.png"], [action="/search"], [src="/i/blog.png"], [src="/i/user.png"], [class="post-avatar"], [src="//i1.beon.fun/11/53/5311/36/920236/2345.png"], #usermenu, [class="fas fa-chevron-down"], [class="user post-title-user"], .post-title, .comment-text, h1, [class="post-title-date"], [class="post-header"], [class="mt-3 mb-3"], hr, h5, [class="post-content"] ul, .alert, .h4, h4, .textareabg, [class="text-center"] img, [class="post-text"] a, span[data-target="#deleteconfirmmodal"], [class="blog__read-me"], h3.left-menu-text, #fnplayer-volume, [href="#footer"], [class="pc-menu"] tbody, #fnplayer-slider, #fnplayer-stop, [class="m2"], [src="/i/logo2.svg"], #beon-fnplayer, .bg-white+.crumbs, [class="content"]::after, [class="post-content blog_total_counter"], .datebg, [class="post-text"]:hover, [class="post-content blog_total_counter"]:hover, [class="bottombg"]:hover, a.navbar-brand:hover::before, .content, [class="bottombg"], div.crumbs, [class="blog__about"]:hover::before, [class="notifications__comments"]   {display: none!important;}
+
+.left-menu > div {
+    display: unset;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    left: 95px;
+}
+
+[href="/design/disable"], [href="/design/disable"]:hover {
+    position: absolute;
+    z-index: 100;
+    top: 46px;
+    left: 457px;
+}
+}
+
+@media (max-width: 540px) {
+[href="/design/disable"] {
+    position: absolute;
+    z-index: 100;
+    top: 46px;
+    left: 318px;
+}
+}
+
+@media (max-width: 480px) {
+[href="/design/disable"], [href="/design/disable"]:hover {
+    position: absolute;
+    z-index: 100;
+    top: 250px;
+    left: 170px;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    top: 65px;
+    left: 170px;
+}
+
+body {
+    background: url(https://i.ibb.co/vcT13mz/image.gif) center bottom no-repeat;
+    background-position-x: -230px;
+    background-position-y: 410px;
+    height: 855px;
+    background-color: #f6fafc;
+}
+}
+
+@media (max-width: 380px) {
+
+a.navbar-brand, a.navbar-brand:hover, [href="/design/disable"], [href="/design/disable"]:hover {
+    left: 120px;
+}
+
+body {
+    background: url(https://i.ibb.co/vcT13mz/image.gif) center bottom no-repeat;
+    background-size: 712px;
+    background-position-x: -185px;
+    background-position-y: 421px;
+    height: 855px;
+    background-color: #f6fafc;
+}
+}
